@@ -1,5 +1,7 @@
 <?php
+
 /**
+ * Template Name: Thank You Page
  * Render your site front page, whether the front page displays the blog posts index or a static page.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#front-page-display
@@ -20,6 +22,7 @@ if ( is_home() ) {
 
 ?>
 	<main id="primary" class="site-main">
+		<h1>Thank You</h1>
 		<?php
 
 		while ( have_posts() ) {
@@ -31,5 +34,5 @@ if ( is_home() ) {
 		get_template_part( 'template-parts/content/pagination' );
 		?>
 	</main><!-- #primary -->
-<?php
+	<?php
 get_footer();

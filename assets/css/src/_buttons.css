@@ -1,23 +1,57 @@
-html body * {
-	/* background-color: #a00 !important; */
-}
-
-.btn-prime {
+.jc-btn {
 	display: flex;
-	background: #F5424B;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	align-items: center;
+	justify-content: center;
+	background: #F5424B; /* Red 500 */
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Shadow 1 */
+	border: 1px solid #F5424B; /* Red 500 */
 	border-radius: 2px;
+	color: #fff;
 	min-height: 44px;
+	padding: 8px 24px;
+	margin: 0 4px;
+	text-decoration: none;
 }
 
-.btn-prime:hover,
-.btn-prime:focus {
-	 background: #F5424B;
+.jc-btn--prime,
+.jc-btn--prime:visited {
+	background-color: #F5424B; /* Red 500 */
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Shadow 1 */
+	border-color: #F5424B; /* Red 500 */
+	color: #fff;
+}
+
+.jc-btn--prime:hover,
+.jc-btn--prime:focus,
+.jc-btn--prime:active {
+	color: #fff;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Shadow 3 */
  }
 
-.btn-secondary {
+.jc-btn--prime:disabled {
+	background-color: #C5C5C5; /* Grey 300 */
+}
+
+.jc-btn--second,
+.jc-btn-second:visited {
+	color: #F5424B; /* Red 500 */
+	background: #FFEDEE; /* Red 100 */
+	border-color: #FFEDEE; /* Red 100 */
+}
+
+.jc-btn--second:hover,
+.jc-btn-second:focus,
+.jc-btn-second:active {
+	border-color: #FF9292;
+}
+
+.jc-btn-third,
+.jc-btn-third:visited {
 	background: #F5424B;
 }
-.btn-tertiary {
+
+.jc-btn-third:hover,
+.jc-btn-third:focus,
+.jc-btn-third:active {
 	background: #F5424B;
 }

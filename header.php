@@ -34,10 +34,10 @@ namespace WP_Rig\WP_Rig;
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'wp-rig' ); ?></a>
-	<a href="https://rhku9.draftium.site/">
+	<a href="https://rhku9.draftium.site/" target="_blank">
 		Demo Link
 	</a>
-	<a href="https://www.figma.com/file/NOb3pjWMj47FvKwOlT3OPC/JayCCampbell.com">
+	<a href="https://www.figma.com/file/NOb3pjWMj47FvKwOlT3OPC/JayCCampbell.com" target="_blank">
 		Figma
 	</a>
 	<header id="masthead" class="jc-header">

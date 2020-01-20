@@ -5,6 +5,7 @@
 .jc-header {
 	grid-column: span 2;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 	align-content: center;
@@ -24,8 +25,7 @@
 }
 
 .jc-header-logo_link,
-.jc-header-logo_link:visited
-{
+.jc-header-logo_link:visited {
 	text-decoration: none;
 	font-size: 40px;
 	color: #262626;

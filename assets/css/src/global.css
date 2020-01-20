@@ -16,6 +16,45 @@
 # Footer
 # Infinite scroll
 --------------------------------------------------------------*/
+/*
+	- Positioning -
+	- Box model
+	- Typography
+	- Visual
+	- Misc
+*/
+
+
+/*
+	Positioning
+	- position:
+	- top:
+	- right:
+	- left:
+	- bottom:
+	- z-index:
+	Box model:
+	- display
+	- float
+	- overflow:
+	- width:
+	- height:
+	- padding:
+	- margin:
+	- overflow: hidden;
+	Typography
+	- font
+	- line-height
+	- color
+	- text-align
+	Visual
+	- background
+	- border
+	- border-radius
+	Misc
+	- opacity
+	- cursor: pointer
+ */
 
 /*--------------------------------------------------------------
 # Imports
@@ -33,6 +72,9 @@
 @import "_header.css";
 @import "_footer.css";
 @import "_infinite-scroll.css";
+
+/* -- pages -- */
+@import "_jc-home-page.css";
 
 /*--------------------------------------------------------------
 # Layouts

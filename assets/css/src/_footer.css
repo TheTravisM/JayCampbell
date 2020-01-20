@@ -5,6 +5,7 @@
 	/* --  For now */
 	grid-column: span 2;
 	display: flex;
+	flex-wrap: wrap;
 	position: relative;
 	flex-direction: row;
 	background: #F1F1F1; /* Grey 100 */
@@ -36,6 +37,7 @@
 
 .jc-footer-nav {
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
 	align-items: start;
 }
