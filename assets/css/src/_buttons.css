@@ -1,0 +1,23 @@
+html body * {
+	/* background-color: #a00 !important; */
+}
+
+.btn-prime {
+	display: flex;
+	background: #F5424B;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
+	min-height: 44px;
+}
+
+.btn-prime:hover,
+.btn-prime:focus {
+	 background: #F5424B;
+ }
+
+.btn-secondary {
+	background: #F5424B;
+}
+.btn-tertiary {
+	background: #F5424B;
+}

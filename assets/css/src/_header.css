@@ -1,0 +1,137 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+.jc-header {
+	grid-column: span 2;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	height: 96px;
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto 40px;
+	z-index: 10;
+}
+
+/* -- JC Header Logo -- */
+.jc-header-logo {
+	font-size: 40px;
+	position: relative;
+	display: flex;
+
+}
+
+.jc-header-logo_link,
+.jc-header-logo_link:visited
+{
+	text-decoration: none;
+	font-size: 40px;
+	color: #262626;
+}
+.jc-header-logo_link:hover,
+.jc-header-logo_link:active,
+.jc-header-logo_link:focus {
+	color: #F5424B;
+}
+
+.jc-header-logo .jc-header-logo_svg {
+	height: 56px;
+	width: auto;
+	top: 10px;
+	position: relative;
+}
+
+/* -- Header Navigation -- */
+.jc-header-nav {
+	height: 100%;
+	display: flex;
+}
+
+.jc-header-nav_ul {
+	display: flex;
+	grid-column-gap: 96px;
+	flex-direction: row;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.jc-header-nav_li {
+	display: flex;
+}
+.jc-header-nav_link,
+.jc-header-nav_link:visited {
+	height: 100%;
+	display: flex;
+	color: #686868;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	padding: 0 24px;
+	margin-left: 24px;
+	border-bottom: 3px solid transparent;
+
+	font-family: Overpass;
+	font-size: 18px;
+
+}
+
+.jc-header-nav_link:hover,
+.jc-header-nav_link:focus,
+.jc-header-nav_link:active {
+	color: #F5424B;
+	border-bottom: 3px solid #F5424B;
+}
+
+.site-header {
+	padding-bottom: 1em;
+}
+
+.header-image {
+	margin: 0 auto;
+}
+
+.header-image img {
+	display: block;
+	margin: 0 auto;
+}
+
+.custom-logo-link {
+	display: inline-block;
+	margin: 0 auto 1em;
+}
+
+.site-branding {
+	text-align: center;
+	padding: 60px 0 1.75em;
+}
+
+.site-title {
+	margin: 0 1em;
+	font-family: var(--highlight-font-family);
+	font-stretch: condensed;
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 1.2;
+	color: #333332;
+}
+
+.site-title a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.site-description {
+	margin: 0.4375em 0 0;
+	font-family: var(--highlight-font-family);
+	font-stretch: condensed;
+	font-size: 17px;
+	font-weight: inherit;
+	line-height: 1.4;
+	word-wrap: break-word;
+	color: #757575;
+}
