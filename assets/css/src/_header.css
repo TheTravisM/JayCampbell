@@ -9,7 +9,7 @@
 	justify-content: space-between;
 	align-items: center;
 	align-content: center;
-	height: 96px;
+	min-height: 96px;
 	width: 100%;
 	max-width: 1440px;
 	margin: 0 auto 40px;
@@ -30,6 +30,7 @@
 	font-size: 40px;
 	color: #262626;
 }
+
 .jc-header-logo_link:hover,
 .jc-header-logo_link:active,
 .jc-header-logo_link:focus {

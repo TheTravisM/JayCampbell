@@ -23,11 +23,27 @@ if ( is_home() ) {
 ?>
 	<main id="primary" class="site-main">
 
-		<section class="jc-banner">
-			<h2>Learn How to Live Fully Optimized
-			From the Body, Mind and Soul</h2>
-		</section>
-		<div class="jc-where-to-start">
+		<!-- JC HERO BANNER -->
+		<article class="jc-hero-banner">
+			<section class="jc-hero-banner_container">
+				<picture class="jc-hero-banner_picture">
+					<!--<source srcset="/media/examples/surfer-240-200.jpg"  media="(min-width: 800px)">-->
+					<img class="jc-hero-banner_img" alt="Jay C Campbell" src="https://uploads-ssl.webflow.com/5d22df33c79ae884ef9f33db/5de77c7bdd80e662c38a32f8_jay-hero-image_squooshed.png" />
+				</picture>
+				<div class="jc-hero-banner_content">
+					<h2 class="jc-hero-banner_cta">
+						Learn How to Live Fully Optimized
+						<br>From the Body, Mind and Soul
+					</h2>
+					<a class="jc-btn jc-btn--prime" href="#">
+						Start Here
+					</a>
+				</div>
+			</section>
+		</article>
+
+		<!-- WHERE TO START-->
+		<article class="jc-where-to-start">
 			<div class="jc-subjects">
 				<a class="jc-subject jc-subject--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">
 					<svg class="jc-subject_svg-icon jc-subject_svg-icon--physical" width="49" height="42" viewBox="0 0 49 42" xmlns="http://www.w3.org/2000/svg">
@@ -87,8 +103,74 @@ if ( is_home() ) {
 			<a class="jc-btn jc-btn--prime jc-where-to-start_btn" href="#">
 				Find your starting place
 			</a>
-		</div>
+		</article>
 
+		<article class="">
+			<h2>Are You Willing to Remove Fear From Your Life?</h2>
+			<p>Do you use studies and research to build a better body?</p>
+			<p>Are you tired of being lied to by the mainstream media?</p>
+			<p>Are you confident you can still look and feel your best as you get older?</p>
+			<p>Could you strengthen your feeling of connection with the people who matter to you?</p>
+			<p>Are you tired of living a life of scarcity and limitation?</p>
+			<p>Are you ready to discover your life's primary purpose and realize you are the source of your own abundance?</p>
+			<a class="jc-btn jc-btn--prime">
+				Yes, show me the way!
+			</a>
+		</article>
+
+		<article class="">
+			<h3>Jay has appeared on...</h3>
+			<div class="jc-blocks">
+				<div class="jc-blocks_block"
+			</div>
+
+		</article>
+
+		<article>
+			<h2>Recent Podcast Episodes</h2>
+			<div class="jc-card">
+				<picture class="jc-card_picture">
+					<img class="jc-card_img" alt="podcast image" src="https://www.fillmurray.com/384/256"/>
+				</picture>
+				<div class="jc-card_content">
+					<h3 class="jc-card_title"></h3>
+					<p>Bacon ipsum dolor amet frankfurter rump chislic, burgdoggen meatball cupim bacon ham biltong pork salami kielbasa venison turducken. Bacon ipsum dolor amet frankfurter rump chislic.</p>
+					<time class="jc-card_date" datetime="">January 1, 2020</time>
+					<div class="jc-card_tag jc-card_tag--physical">physical</div>
+				</div>
+			</div>
+
+			<a class="jc-link--prime" href="#">
+				View all podcast episodes
+			</a>
+
+			<h2>Recent Blog Posts</h2>
+			<div class="jc-card">
+				<picture class="jc-card_picture">
+					<img class="jc-card_img" src="https://www.fillmurray.com/384/256"/>
+				</picture>
+				<div class="jc-card_content">
+					<h3 class="jc-card_title"></h3>
+					<p>Bacon ipsum dolor amet frankfurter rump chislic, burgdoggen meatball cupim bacon ham biltong pork salami kielbasa venison turducken. Bacon ipsum dolor amet frankfurter rump chislic.</p>
+					<time class="jc-card_date" datetime="">January 1, 2020</time>
+					<div class="jc-card_tag jc-card_tag--physical">physical</div>
+				</div>
+			</div>
+
+			<a class="jc-link--prime" href="#">
+				View all blog posts
+			</a>
+		</article>
+
+		<!-- EMAIL SIGN UP -->
+		<article class="jc-email-signup">
+			<h2 class="jc-email-signup_title"></h2>
+			<form class="jc-email-signup_form">
+				<input>
+				<input>
+				<submit class="jc-btn jc-btn--prime jc-email-signup_btn">Sign Up</submit>
+			</form>
+		</article>
 		<?php
 
 		while ( have_posts() ) {

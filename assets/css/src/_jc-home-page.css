@@ -1,8 +1,37 @@
-.jc-banner {
+.jc-hero-banner {
 	display: flex;
 	width: 100%;
+	max-width: 1440px;
+	margin: 60px auto 40px;
+	justify-content: center;
+}
+.jc-hero-banner_container {
+	display: flex;
+	flex-direction: row;
+}
+.jc-hero-banner_picture { }
+
+.jc-hero-banner_img { }
+
+.jc-hero-banner_content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
+.jc-hero-banner_cta {
+	font-family: Overpass;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 140%;
+	text-align: center;/* or 50px */
+	color: #262626;/* Grey 900 */
+}
+
+
+/* -- Where to start -- */
 .jc-where-to-start {
 	display: flex;
 	flex-direction: column;
