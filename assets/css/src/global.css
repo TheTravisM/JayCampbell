@@ -69,12 +69,15 @@
 /* -- Other Imports -- */
 @import "_accessibility.css";
 @import "_forms.css";
+@import "/components/_jc-header.css";
 @import "_header.css";
 @import "_footer.css";
 @import "_infinite-scroll.css";
 
 /* -- pages -- */
-@import "_jc-home-page.css";
+@import "_jc-front-page.css";
+@import "/components/_jc-section.css";
+@import "/components/_jc-sign-up.css";
 
 /*--------------------------------------------------------------
 # Layouts

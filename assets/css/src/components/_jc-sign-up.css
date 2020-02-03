@@ -1,0 +1,49 @@
+/* Sign Up Component */
+
+.jc-email-sign-up {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 60px auto 40px;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.jc-email-sign-up_container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+	max-width: 1440px;
+	padding: 0 40px;
+	margin: 0 auto;
+	position: relative;
+	align-items: center;
+}
+
+.jc-email-sign-up_title {
+
+ }
+
+.jc-email-sign-up_form {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin: 24px;
+}
+
+.jc-email-sign-up_input {
+	width: 384px;
+	height: 55px;
+	border: 1px solid #E4E4E4;
+	box-sizing: border-box;
+	border-radius: 2px;
+	margin: 24px;
+}
+
+.jc-sign-up_btn {
+
+}

@@ -1,0 +1,89 @@
+/*--------------------------------------------------------------
+# JC Header
+--------------------------------------------------------------*/
+
+.jc-header {
+	grid-column: span 2;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	min-height: 96px;
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto 40px;
+	z-index: 10;
+}
+
+/* -- JC Header Logo -- */
+.jc-header-logo {
+	font-size: 40px;
+	position: relative;
+	display: flex;
+
+}
+
+.jc-header-logo_link,
+.jc-header-logo_link:visited {
+	text-decoration: none;
+	font-size: 40px;
+	color: #262626;
+}
+
+.jc-header-logo_link:hover,
+.jc-header-logo_link:active,
+.jc-header-logo_link:focus {
+	color: #F5424B;
+}
+
+.jc-header-logo .jc-header-logo_svg {
+	height: 56px;
+	width: auto;
+	top: 10px;
+	position: relative;
+}
+
+/* -- Header Navigation -- */
+.jc-header-nav {
+	height: 100%;
+	display: flex;
+}
+
+.jc-header-nav_ul {
+	display: flex;
+	grid-column-gap: 96px;
+	flex-direction: row;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.jc-header-nav_li {
+	display: flex;
+}
+.jc-header-nav_link,
+.jc-header-nav_link:visited {
+	height: 100%;
+	display: flex;
+	color: #686868;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	padding: 0 24px;
+	margin-left: 24px;
+	border-bottom: 3px solid transparent;
+
+	font-family: Overpass;
+	font-size: 18px;
+
+}
+
+.jc-header-nav_link:hover,
+.jc-header-nav_link:focus,
+.jc-header-nav_link:active {
+	color: #F5424B;
+	border-bottom: 3px solid #F5424B;
+}

@@ -60,9 +60,10 @@
 
 .jc-subject:hover .jc-subject_title,
 .jc-subject:focus .jc-subject_title,
-.jc-subject:active .jc-subject_title{
+.jc-subject:active .jc-subject_title {
 	color: #f5424b;
 }
+
 .jc-subject:hover .jc-subject_svg-icon path,
 .jc-subject:focus .jc-subject_svg-icon path,
 .jc-subject:active .jc-subject_svg-icon path {
@@ -76,7 +77,7 @@
 }
 
 .jc-subject_svg-icon path {
-	stroke:#4E4E4E;
+	stroke: #4E4E4E;
 	stroke-width: 1.5;
 	stroke-linecap: round;
 	stroke-linejoin: round;

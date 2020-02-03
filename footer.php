@@ -17,76 +17,76 @@ namespace WP_Rig\WP_Rig;
 		<nav class="jc-footer-nav">
 			<ul class="jc-footer-nav_ul">
 				<li class="jc-footer-nav_li">
-					<a class="jc-footer-nav_link" href="#">
+					<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>start-here" rel="start here">
 						Start Here
 					</a>
 				</li>
 				<li class="jc-footer-nav_li">
-					<a class="jc-footer-nav_link" href="#">
+					<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>faq" rel="FAQ">
 						FAQ's
 					</a>
 				</li>
 				<li class="jc-footer-nav_li">
-					<a class="jc-footer-nav_link" href="#">
+					<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>blog" rel="blog">
 						Blog
 					</a>
 				</li>
 				<li class="jc-footer-nav_li">
-					<a class="jc-footer-nav_link" href="#">
+					<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>podcast" rel="podcast">
 						Podcast
 					</a>
 				</li>
 				<li class="jc-footer-nav_li">
-					<a class="jc-footer-nav_link" href="#">
+					<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>store" rel="store">
 						Store
 					</a>
 				</li>
 			</ul>
 			<ul class="jc-footer-nav_ul">
 				<li class="jc-footer-nav_li">
-					<a class="jc-footer-nav_link" href="#">
+					<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>support" rel="support">
 						Support
 					</a>
 				</li>
 				<li class="jc-footer-nav_li">
-					<a class="jc-footer-nav_link" href="#">
+					<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>resources" rel="resources">
 						Resources
 					</a>
 				</li>
 				<li class="jc-footer-nav_li">
-					<a class="jc-footer-nav_link" href="#">
+					<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>partners" rel="partners">
 						Partners
 					</a>
 				</li>
 				<li class="jc-footer-nav_li">
-					<a class="jc-footer-nav_link" href="#">
+					<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>guests" rel="guests">
 						Podcast Guests
 					</a>
 				</li>
 				<li class="jc-footer-nav_li">
-					<a class="jc-footer-nav_link" href="#">
+					<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>appearances" rel="Appearances">
 						Appearances
 					</a>
 				</li>
 			</ul>
 			<ul class="jc-footer-nav_ul">
 				<li class="jc-footer-nav_li">
-					<a class="jc-footer-nav_link" href="#">
+					<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>terms-of-use" rel="terms of use">
 						Terms of Use
 					</a>
 				</li>
 				<li class="jc-footer-nav_li">
-					<a class="jc-footer-nav_link" href="#">
+					<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>privacy-policy" rel="privacy policy">
 						Privacy Policy
 					</a>
 				</li>
 				<li class="jc-footer-nav_li">
-					<a class="jc-footer-nav_link" href="#">
+					<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>return-policy" rel="return policy">
 						Return Policy
 					</a>
 				</li>
 				<li class="jc-footer-nav_li">
-					<a class="jc-footer-nav_link" href="#">
+					<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>disclosure" rel="disclosure">
 						Disclosure
 					</a>
 				</li>
@@ -100,7 +100,7 @@ namespace WP_Rig\WP_Rig;
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
-<!-- <?php // get_template_part( 'template-parts/footer/info' ); ?> -->
+<!-- <?php /* get_template_part( 'template-parts/footer/info' ); */ ?> -->
 
 <?php wp_footer(); ?>
 

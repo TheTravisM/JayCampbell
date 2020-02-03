@@ -30,7 +30,7 @@ namespace WP_Rig\WP_Rig;
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> >
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'wp-rig' ); ?></a>
@@ -80,34 +80,34 @@ namespace WP_Rig\WP_Rig;
 		<nav class="jc-header-nav">
 			<ul class="jc-header-nav_ul">
 				<li class="jc-header-nav_li">
-					<a class="jc-header-nav_link" href="https://rhku9.draftium.site/">
+					<a class="jc-header-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>podcast" rel="podcast">
 						Podcast
 					</a>
 				</li>
 				<li class="jc-header-nav_li">
-					<a class="jc-header-nav_link" href="https://rhku9.draftium.site/">
+					<a class="jc-header-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>blog" rel="blog">
 						Blog
 					</a>
 				</li>
 				<li class="jc-header-nav_li">
-					<a class="jc-header-nav_link" href="https://rhku9.draftium.site/">
+					<a class="jc-header-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>products" rel="products">
 						Products
 					</a>
 				</li>
 				<li class="jc-header-nav_li">
-					<a class="jc-header-nav_link" href="https://rhku9.draftium.site/">
+					<a class="jc-header-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>resources" rel="resources">
 						Resources
 					</a>
 				</li>
 				<li class="jc-header-nav_li">
-					<a class="jc-header-nav_link" href="https://rhku9.draftium.site/">
+					<a class="jc-header-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>contact" rel="contact">
 						Contact
 					</a>
 				</li>
 			</ul>
 		</nav>
-		<!-- <?php // get_template_part( 'template-parts/header/custom_header' ); ?> -->
-		<!-- <?php // get_template_part( 'template-parts/header/branding' ); ?> -->
-		<!-- <?php // get_template_part( 'template-parts/header/navigation' ); ?> -->
+		<?php /* get_template_part( 'template-parts/header/custom_header' ); */ ?>
+		<?php /* get_template_part( 'template-parts/header/branding' ); */ ?>
+		<?php /* get_template_part( 'template-parts/header/navigation' ); */ ?>
 
 	</header><!-- #masthead -->
