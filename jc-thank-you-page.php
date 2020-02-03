@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Template Name: Thank You Page
  * Render your site front page, whether the front page displays the blog posts index or a static page.
@@ -35,4 +34,4 @@ if ( is_home() ) {
 		?>
 	</main><!-- #primary -->
 	<?php
-get_footer();
+	get_footer();

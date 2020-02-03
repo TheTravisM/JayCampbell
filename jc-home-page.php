@@ -183,4 +183,4 @@ if ( is_home() ) {
 		?>
 	</main><!-- #primary -->
 	<?php
-get_footer();
+	get_footer();
