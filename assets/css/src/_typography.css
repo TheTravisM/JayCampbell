@@ -39,6 +39,22 @@ blockquote {
 
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-family: Overpass;
+	color: var(--jc-color-gray-900, #262626); /* Grey 900 */
+
+}
+h3,
+h4,
+h5 {
+	font-weight: bold;
+}
 .entry-header h1.entry-title,
 .page-header .page-title {
 	font-size: 2.5rem;
@@ -47,53 +63,71 @@ blockquote {
 	margin-bottom: 1em;
 }
 
-/* Headings */
-h1 {
+/* -- [ Headings ] -- */
+h1,
+.jc-h1 {
 	font-size: 64px;
+	font-size: var(--jc-font-size-10, 64px);
 	line-height: 80px;
 }
 
-h2 {
+h2,
+.jc-h2 {
 	font-size: 48px;
+	font-size: var(--jc-font-size-9, 48px);
 	line-height: 60px;
 }
 
-h3 {
+h3,
+.jc-h3 {
 	font-size: 36px;
+	font-size: var(--jc-font-size-8, 36px);
+	font-weight: bold;
 	line-height: 55px;
 }
 
-h4 {
+h4,
+.jc-h4 {
 	font-size: 24px;
+	font-size: var(--jc-font-size-6, 24px);
+	font-weight: bold;
 	line-height: 37px;
 }
 
-h5 {
+h5,
+.jc-h5 {
 	font-size: 18px;
+	font-size: var(--jc-font-size-4, 18px);
+	font-weight: bold;
 	line-height: 28px;
 }
 
-h6 {
-	font-family: Overpass;
-	font-weight: 800;
+h6,
+.jc-h6 {
 	font-size: 14px;
-	font-style: normal;
+	font-size: var(--jc-font-size-2, 14px);
+	font-weight: 800;
 	line-height: 21px;
 	text-transform: uppercase;
 }
 
-p {
-	font-family: Overpass;
-	font-style: normal;
-	font-weight: normal;
+p,
+.jc-p {
 	font-size: 20px;
-	line-height: 175%;
+	font-size: var(--jc-font-size-4, 20px);
+	line-height: 21px;
 }
 
-a {
-	font-size: 20px;
-	color: #6065C6;
+a,
+.jc-a {
+	color: var(--jc-color-red-500, #6065C6);
 	text-decoration-line: underline;
+}
+
+blockquote,
+.jc-blockquote {
+	font-size: 14px;
+	font-size: var(--jc-font-size-4, 14px);
 }
 
 

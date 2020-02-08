@@ -42,7 +42,7 @@ if ( is_home() ) {
 
 		<!-- WHERE TO START-->
 		<article class="jc-where-to-start">
-			<div class="jc-subjects">
+			<div class="jc-subject-list">
 				<a class="jc-subject jc-subject--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">
 					<svg class="jc-subject_svg-icon jc-subject_svg-icon--physical" width="49" height="42" viewBox="0 0 49 42" xmlns="http://www.w3.org/2000/svg">
 						<path d="M34.5659 30.166L25.5819 39.538C25.0099 40.136 24.0619 40.156 23.4639 39.584C23.4479 39.568 23.4319 39.554 23.4179 39.538L14.4319 30.164"/>
@@ -105,7 +105,7 @@ if ( is_home() ) {
 
 		<article class="jc-section">
 			<div class="jc-section_container">
-				<h2>Are You Willing to Remove Fear From Your Life?</h2>
+				<h2 class="jc-h2 ">Are You Willing to Remove Fear From Your Life?</h2>
 				<p>Do you use studies and research to build a better body?</p>
 				<p>Are you tired of being lied to by the mainstream media?</p>
 				<p>Are you confident you can still look and feel your best as you get older?</p>
@@ -122,23 +122,49 @@ if ( is_home() ) {
 			<div class="jc-section_container">
 				<h3>Jay has appeared on...</h3>
 				<div class="jc-blocks">
-					<div class="jc-blocks_block"
+					<div class="jc-blocks_block"></div>
 				</div>
 			</div>
 		</article>
 
 		<article  class="jc-section">
 			<div class="jc-section_container">
+				<div>
+					<a class="jc-badge" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/">Badge</a>
+					<a class="jc-badge jc-badge--energy" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/energy">Energy</a>
+					<a class="jc-badge jc-badge--heart" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/heart">Heart</a>
+					<a class="jc-badge jc-badge--mental" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/mental">Mental</a>
+					<a class="jc-badge jc-badge--nutritional" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/nutritional">Nutritional</a>
+					<a class="jc-badge jc-badge--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
+					<a class="jc-badge jc-badge--sexual" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/sexual">Sexual</a>
+				</div>
+
 				<h2>Recent Podcast Episodes</h2>
 				<div class="jc-card">
 					<picture class="jc-card_picture">
 						<img class="jc-card_img" alt="podcast image" src="https://www.fillmurray.com/384/256"/>
 					</picture>
-					<div class="jc-card_content">
-						<h3 class="jc-card_title"></h3>
+					<div class="jc-card_body">
+						<h3 class="jc-card_title">This Is a Podcast Episode</h3>
 						<p>Bacon ipsum dolor amet frankfurter rump chislic, burgdoggen meatball cupim bacon ham biltong pork salami kielbasa venison turducken. Bacon ipsum dolor amet frankfurter rump chislic.</p>
-						<time class="jc-card_date" datetime="">January 1, 2020</time>
-						<div class="jc-card_tag jc-card_tag--physical">physical</div>
+						<footer class="jc-card_footer">
+							<time class="jc-card_date" datetime="">January 1, 2020</time>
+							<a class="jc-badge jc-badge--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
+						</footer>
+					</div>
+				</div>
+
+				<div class="jc-card">
+					<picture class="jc-card_picture">
+						<img class="jc-card_img" alt="podcast image" src="https://www.fillmurray.com/384/256"/>
+					</picture>
+					<div class="jc-card_body">
+						<h3 class="jc-card_title">This Is a Podcast Episode</h3>
+						<p>Bacon ipsum dolor amet frankfurter rump chislic, burgdoggen meatball cupim bacon ham biltong pork salami kielbasa venison turducken. Bacon ipsum dolor amet frankfurter rump chislic.</p>
+						<footer class="jc-card_footer">
+							<time class="jc-card_date" datetime="">January 1, 2020</time>
+							<a class="jc-badge jc-badge--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
+						</footer>
 					</div>
 				</div>
 
@@ -190,4 +216,4 @@ if ( is_home() ) {
 		?>
 	</main><!-- #primary 1-->
 	<?php
-get_footer();
+	get_footer();

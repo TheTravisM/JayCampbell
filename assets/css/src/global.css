@@ -69,15 +69,21 @@
 /* -- Other Imports -- */
 @import "_accessibility.css";
 @import "_forms.css";
-@import "/components/_jc-header.css";
+@import "./05-components/_jc-header.css";
 @import "_header.css";
+@import "./05-components/_jc-footer.css";
 @import "_footer.css";
 @import "_infinite-scroll.css";
 
 /* -- pages -- */
 @import "_jc-front-page.css";
-@import "/components/_jc-section.css";
-@import "/components/_jc-sign-up.css";
+
+/* -- Components -- */
+@import "./05-components/_jc-section.css";
+@import "./05-components/_jc-subject.css";
+@import "./05-components/_jc-sign-up.css";
+@import "./05-components/_jc-card.css";
+@import "./05-components/_jc-badge.css";
 
 /*--------------------------------------------------------------
 # Layouts

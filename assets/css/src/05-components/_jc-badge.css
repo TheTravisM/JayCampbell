@@ -1,0 +1,45 @@
+.jc-badge {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 29px;
+	border-radius: 18px;
+	font-size: 16px;
+	font-family: Overpass;
+	text-align: center;
+	margin: 2px;
+	padding: 0 12px;
+	background: var(--jc-color-gray-100, #F1F1F1); /* Gray 600 */
+	color: var(--jc-color-gray-600, #686868); /* Gray 600 */
+	text-decoration: none;
+}
+
+.jc-badge--energy {
+	background: var(--jc-color-violet-100, #FFECFC); /* Violet 600 */
+	     color: var(--jc-color-violet-600, #9E2E8B); /* Violet 600 */
+}
+
+.jc-badge--heart {
+	background: var(--jc-color-blue-100, #EAFAFF); /* Blue 100 */
+	     color: var(--jc-color-blue-700, #006A8A); /* Blue 700 */
+}
+
+.jc-badge--mental {
+	background: var(--jc-color-green-100, #F5FFE6); /* Green 100 */
+	     color: var(--jc-color-green-700, #5A870F); /* Green 700 */
+}
+
+.jc-badge--nutritional {
+	background: var(--jc-color-orange-100, #FFF5EC); /* Orange 100 */
+	     color: var(--jc-color-orange-700, #C45E00); /* Orange 700 */
+}
+
+.jc-badge--physical {
+	background: var(--jc-color-red-100, #FFEDEE); /* Red 100 */
+	     color: var(--jc-color-red-700, #C30009); /* Red 700 */
+}
+
+.jc-badge--sexual {
+	background: var(--jc-color-yellow-100, #FFFAEA); /* Yellow 100 */
+	     color: var(--jc-color-yellow-700, #A88300); /* Yellow 700 */
+}

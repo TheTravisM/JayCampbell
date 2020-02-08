@@ -36,6 +36,14 @@ msgstr ""
 msgid "Skip to content"
 msgstr ""
 
+#: jc-thank-you-page.php:3
+msgid "Thank You Page"
+msgstr ""
+
+#: remove-jc-home-page.php:3
+msgid "Alt Home Page"
+msgstr ""
+
 #. translators: 1: required WP version number, 2: required PHP version number, 3: available WP version number, 4: available PHP version number
 #: inc/back-compat.php:25
 msgid "WP Rig requires at least WordPress version %1$s and PHP version %2$s. You are running versions %3$s and %3$s respectively. Please update and try again."
