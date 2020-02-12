@@ -1,0 +1,14 @@
+/* -- Blocks -- */
+
+.jc-block-list {
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	justify-content: space-around;
+	max-width: 960px;
+	width: 100%;
+}
+
+.jc-block {
+	display: flex;
+}

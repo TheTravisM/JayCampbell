@@ -14,7 +14,8 @@ namespace WP_Rig\WP_Rig;
 ?>
 
 	<footer id="colophon" class="jc-footer">
-		<nav class="jc-footer-nav">
+		<div class="jc-footer_container">
+			<nav class="jc-footer-nav">
 			<ul class="jc-footer-nav_ul">
 				<li class="jc-footer-nav_li">
 					<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>start-here" rel="start here">
@@ -97,6 +98,7 @@ namespace WP_Rig\WP_Rig;
 				</li>
 			</ul>
 		</nav>
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

@@ -13,45 +13,71 @@
 	/* -- [ JC Colors ] -- */
 	--jc-color-white: #FFF;
 	--jc-color-gray-100: #F1F1F1;
+	--jc-color-gray-200: #E4E4E4;
 	--jc-color-gray-300: #C5C5C5;
+	--jc-color-gray-400: #A5A5A5;
 	--jc-color-gray-500: #818181;
-	--jc-color-gray-600: #686868;
+	--jc-color-gray-600: #686868; /* Grey 600 */
 	--jc-color-gray-700: #4E4E4E; /* Grey 700 */
+	--jc-color-gray-800: #383838; /* Grey 800 */
 	--jc-color-gray-900: #262626; /* Grey 900 */
+
 	/* - Red - */
 	--jc-color-red-100: #FFEDEE;
+	--jc-color-red-200: #FFCACC;
 	--jc-color-red-300: #FF9292;
-	--jc-color-red-500: #F5424B;
+	--jc-color-red-500: #F5424B; /* Red 500 */
 	--jc-color-red-600: #E1262F;
 	--jc-color-red-700: #C30009;
+	--jc-color-red-800: #810006;
+
 	/* - Orange - */
 	--jc-color-orange-100: #FFF5EC;
+	--jc-color-orange-200: #FFE8D2;
 	--jc-color-orange-500: #FF7A00;
 	--jc-color-orange-600: #E86F00;
 	--jc-color-orange-700: #C45E00; /* Orange 700 */
+	--jc-color-orange-800: #9B4A00; /* Orange 800 */
+
 	/* - Yellow - */
 	--jc-color-yellow-100: #FFFAEA;
+	--jc-color-yellow-200: #FFF4CC;
 	--jc-color-yellow-500: #FFCD1E;
 	--jc-color-yellow-600: #DFAE00;
 	--jc-color-yellow-700: #A88300; /* Yellow 700 */
+	--jc-color-yellow-800: #7D6200; /* Yellow 800 */
+
 	/* - Green - */
 	--jc-color-green-100: #F5FFE6;
+	--jc-color-green-200: #E5FFB9;
 	--jc-color-green-500: #93CC34;
 	--jc-color-green-600: #75AA1B;
 	--jc-color-green-700: #5A870F; /* Green 700 */
+	--jc-color-green-800: #416800; /* Green 800 */
+
 	/* - Blue - */
 	--jc-color-blue-100: #EAFAFF;
+	--jc-color-blue-200: #CFF3FE;
 	--jc-color-blue-500: #00ABDF;
 	--jc-color-blue-600: #008CB7;
 	--jc-color-blue-700: #006A8A; /* Blue 700 */
+	--jc-color-blue-800: #005068; /* Blue 800 */
+
 	/* - Indigo - */
 	--jc-color-indigo-100: #F0F1FF;
+	--jc-color-indigo-200: #F0F1FF;
 	--jc-color-indigo-500: #6065C6;
 	--jc-color-indigo-600: #4A4FAD;
+	--jc-color-indigo-700: #4A4FAD;
+	--jc-color-indigo-800: #131973;
+
 	/* - violet - */
 	--jc-color-violet-100: #FFECFC;
+	--jc-color-violet-200: #D9DAFB;
 	--jc-color-violet-500: #BC3CA7;
 	--jc-color-violet-600: #9E2E8B;
+	--jc-color-violet-700: #2D3294;
+	--jc-color-violet-800: #6E0B5D;
 
 	/* -- Font Size -- */
 	--jc-font-size-1:  12px;

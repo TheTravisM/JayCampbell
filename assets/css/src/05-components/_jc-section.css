@@ -3,9 +3,10 @@
 .jc-section {
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	width: 100%;
-	margin: 60px auto 40px;
+	margin: 0 auto;
+	padding: 0 40px;
 	justify-content: center;
 	position: relative;
 }
@@ -15,9 +16,8 @@
 	flex-direction: column;
 	flex-wrap: wrap;
 	width: 100%;
-	max-width: 1440px;
-	padding: 0 40px;
-	margin: 0 auto;
+	max-width: 1200px;
+	margin: 60px auto 40px;
 	position: relative;
 	align-items: flex-start;
 }

@@ -11,6 +11,12 @@
 	padding: 8px 24px;
 	margin: 0 4px;
 	text-decoration: none;
+	cursor: pointer;
+}
+.jc-btn:disabled {
+	color: #FFF;
+	background-color: var(--jc-color-gray-300, #C5C5C5); /* Grey 300 */
+	cursor: initial;
 }
 
 .jc-btn--prime,
