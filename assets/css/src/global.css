@@ -74,28 +74,28 @@
 @import "_footer.css";
 @import "_infinite-scroll.css";
 
-/* -- pages -- */
-@import "./07-pages/_jc-front-page.css";
-@import "./07-pages/_jc-thank-you-page.css";
-@import "./07-pages/_jc-start-here-page.css";
-
 /* -- Components -- */
 @import "./05-components/_jc-badges.css";
 @import "./05-components/_jc-buttons.css";
 @import "./05-components/_jc-blocks.css";
 @import "./05-components/_jc-card.css";
+@import "./05-components/_jc-download-sign-up.css";
 @import "./05-components/_jc-hero-banner.css";
 @import "./05-components/_jc-links.css";
 @import "./05-components/_jc-section.css";
 @import "./05-components/_jc-sign-up.css";
 @import "./05-components/_jc-subject.css";
 
+/* -- pages -- */
+@import "./07-pages/_jc-front-page.css";
+@import "./07-pages/_jc-thank-you-page.css";
+@import "./07-pages/_jc-start-here-page.css";
+
 /* -- Utilities -- */
 @import "./06-utilities/_u-align.css";
 @import "./06-utilities/_u-background-colors.css";
 @import "./06-utilities/_u-sizing.css";
 @import "./06-utilities/_u-text.css";
-
 
 /*--------------------------------------------------------------
 # Layouts

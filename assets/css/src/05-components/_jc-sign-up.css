@@ -1,6 +1,6 @@
 /* Sign Up Component */
 
-.jc-email-sign-up {
+.jc-email-sign-up_section {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -27,36 +27,42 @@
 	font-weight: 400;
  }
 
-.jc-email-sign-up_form {
-	position: relative;
-	display: flex;
-	width: auto;
-	flex-wrap: wrap;
-	flex-direction: column;
-	margin: 0 auto;
-	align-items: flex-start;
-	justify-content: flex-start;
+.jc-email-sign-up {
+	display: grid;
+	grid-template-areas: "input-1" "input-2" "btn";
+	grid-template-columns: 1fr;
+	grid-template-rows: 55px 55px 55px;
+	gap: 16px;
+	margin: 16px auto;
+	padding: 16px;
+	width: 100%;
+}
+
+.jc-email-sign-up_input--1 {
+	grid-area: input-1;
+}
+
+.jc-email-sign-up_input--2 {
+	grid-area: input-2;
 }
 
 .jc-email-sign-up_input {
-	width: 384px;
-	height: 55px;
 	border: 1px solid #E4E4E4;
 	border: 1px solid var(--jc-color-gray-200, #E4E4E4);
 	box-sizing: border-box;
 	border-radius: 2px;
-	margin: 16px;
 	text-indent: 16px;
 }
 
 .jc-sign-up_btn {
-	min-height: 55px;
-	margin: 16px;
+	/*min-height: 55px;*/
+	/*margin: 16px;*/
 }
 
 @media (min-width: 768px) {
-	.jc-email-sign-up_form {
-		flex-direction: row;
-		justify-content: center;
+	.jc-email-sign-up {
+		grid-template-areas: "input-1 input-2 btn";
+		grid-template-columns: 1fr 1fr auto;
+		grid-template-rows: 55px;
 	}
 }
