@@ -9,14 +9,14 @@ namespace WP_Rig\WP_Rig;
 
 ?>
 
-<header class="entry-header">
-	<?php
-	get_template_part( 'template-parts/content/entry_title', get_post_type() );
+<header class="jc-page-header">
+	<div class="jc-page-header_container">
+		<h1 class="jc-page-header_title jc-h1">
+			<?php the_title() ?>
+		</h1>
 
-	get_template_part( 'template-parts/content/entry_meta', get_post_type() );
-
-	if ( ! is_search() ) {
-		get_template_part( 'template-parts/content/entry_thumbnail', get_post_type() );
-	}
-	?>
+		<p class="entry-meta jc-page-header_meta-data">
+			<?php the_time('F jS Y')?>
+		</p><!-- .entry-meta -->
+	</div>
 </header><!-- .entry-header -->

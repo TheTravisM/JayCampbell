@@ -9,7 +9,7 @@ namespace WP_Rig\WP_Rig;
 
 ?>
 
-<div class="entry-content">
+<div class="entry-content jc-page-content">
 	<?php
 	the_content(
 		sprintf(

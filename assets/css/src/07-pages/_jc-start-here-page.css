@@ -28,6 +28,30 @@
 
 }
 
+.jc-page-header_meta-data {
+	font-size: 18px;
+	line-height: 28px;
+	color: #686868; /* Grey 600 */
+}
+
+.jc-page-feature-image {
+	display: flex;
+	margin: -64px auto 16px;
+	width: 100%;
+	max-width: 840px;
+	min-height: 200px;
+	height: auto;
+	background-color: #E4E4E4; /* Grey 200 */
+	border-radius: 4px;
+}
+
+.jc-page-feature-image img {
+	height: auto;
+	width: 100%;
+	max-width: 840px;
+	display: flex;
+}
+
 .jc-page-video {
 	display: flex;
 	width: 960px;

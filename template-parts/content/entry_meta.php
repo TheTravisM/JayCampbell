@@ -52,7 +52,8 @@ if ( ! empty( $post->post_parent ) && 'attachment' === get_post_type() ) {
 }
 
 ?>
-<div class="entry-meta">
+
+<div class="entry-meta jc-page-header_meta-data">
 	<?php
 	if ( ! empty( $time_string ) ) {
 		?>

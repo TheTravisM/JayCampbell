@@ -14,7 +14,7 @@ get_header();
 wp_rig()->print_styles( 'wp-rig-content' );
 
 ?>
-	<main id="primary" class="site-main">
+	<main id="primary" class="site-main jc-single-post-main">
 		<?php
 
 		while ( have_posts() ) {
@@ -25,5 +25,6 @@ wp_rig()->print_styles( 'wp-rig-content' );
 		?>
 	</main><!-- #primary -->
 <?php
-get_sidebar();
+/* Sidebar has been removed at  'JayC-wprig-3/inc/Sidebars/Component.php' */
+/* get_sidebar(); */
 get_footer();

@@ -14,7 +14,7 @@ get_header();
 wp_rig()->print_styles( 'wp-rig-content' );
 
 ?>
-	<main id="primary" class="site-main">
+	<main id="primary" class="site-main jc-search-results-page">
 		<?php
 		if ( have_posts() ) {
 
