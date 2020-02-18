@@ -61,5 +61,5 @@ wp_rig()->print_styles( 'wp-rig-content' );
 	</main><!-- #primary -->
 <?php
 /* Sidebar has been removed at  'JayC-wprig-3/inc/Sidebars/Component.php' */
-get_sidebar();
+//get_sidebar();
 get_footer();

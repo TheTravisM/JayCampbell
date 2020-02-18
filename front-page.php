@@ -255,19 +255,6 @@ if ( is_home() ) {
 			</div>
 		</article>
 
-		<!-- EMAIL SIGN UP -->
-		<article class="jc-email-sign-up_section jc-page_section">
-			<div class="jc-email-sign-up_container jc-page_container">
-				<h2 class="jc-h3 jc-email-sign-up_title">
-					Sign up for Jay’s email list and get a free PDF!
-				</h2>
-				<form class="jc-email-sign-up u-width-960" aria-label="Sign up for Jay’s email list">
-					<input class="jc-email-sign-up_input jc-email-sign-up_input--1" type="text" placeholder="Your Name" name="Your Name" aria-label='Enter Name Here '>
-					<input class="jc-email-sign-up_input jc-email-sign-up_input--2" type="text" placeholder="Your Email Address" aria-label='Enter Email Address here'>
-					<button class="jc-sign-up_btn jc-btn jc-btn--prime" aria-label="sign-up" type="submit" >Sign Up</button>
-				</form>
-			</div>
-		</article>
 
 		<!-- Badges -->
 		<article  class="jc-section u-bg-gray-100">
