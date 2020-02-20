@@ -32,6 +32,14 @@
 .jc-card:active {
 	box-shadow: var(--jc-box-shadow-3, 0  5px 15px rgba(0, 0, 0, 0.2)); /* Shadow 3 */
 }
+.jc-card_media {
+
+}
+
+.jc-card_media:hover ~ .jc-card_body .jc-card_title-link {
+	color: #f5424b;
+	color: var(--jc-color-red-500,#f5424b);
+}
 
 .jc-card_picture {
 	display: flex;
@@ -76,6 +84,20 @@
 	overflow: hidden;
 }
 
+.jc-card_title-link,
+.jc-card_title-link:visited {
+	color: #262626;
+	color: var(--jc-color-gray-900,#262626);
+	text-decoration: none;
+}
+
+.jc-card_title-link:hover,
+.jc-card_title-link:focus,
+.jc-card_title-link:active {
+	color: #f5424b;
+	color: var(--jc-color-red-500,#f5424b);
+}
+
 .jc-card_content {
 	font-size: 18px;
 	line-height: 29px;
@@ -101,6 +123,7 @@
 
 /* 768 and up */
 @media (min-width: 768px) {
+
 	.jc-card {
 		display: flex;
 		flex-direction: row;
@@ -109,15 +132,18 @@
 		width: 100%;
 		min-height: 256px;
 	}
+
 	.jc-card_body {
 		/*max-width: 576px;*/
 		/*flex-basis: 256px;*/
 	}
+
 	.jc-card_picture {
 		width: 384px;
 		height: auto;
 		max-height: 256px;
 	}
+
 	.jc-card_content {
 		display: -webkit-box;
 		-webkit-box-orient: vertical;

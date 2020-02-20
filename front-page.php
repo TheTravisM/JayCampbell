@@ -29,7 +29,7 @@ if ( is_home() ) {
 					<img class="jc-hero-banner_img" alt="Jay C Campbell" src="<?php echo get_theme_file_uri('/assets/images/jay-c-campbell-hero-01.png'); ?>" />
 				</picture>
 				<div class="jc-hero-banner_content">
-					<h2 class="jc-hero-banner_cta">
+					<h2 class="jc-hero-banner_cta u-margin-bottom--48">
 						Learn How to Live Fully Optimized
 						<br>From the Body, Mind and Soul
 					</h2>
@@ -114,13 +114,13 @@ if ( is_home() ) {
 		<!-- Are You Willing To Remove Fear -->
 		<article class="jc-are-you-willing jc-section u-bg-gray-100">
 			<div class="jc-are-you-willing_container">
-				<h2 class="jc-h3 jc-are-you-willing_title u-align-self-center">Are You Willing to Remove Fear From Your Life?</h2>
-				<p>Do you use studies and research to build a better body?</p>
-				<p>Are you tired of being lied to by the mainstream media?</p>
-				<p>Are you confident you can still look and feel your best as you get older?</p>
-				<p>Could you strengthen your feeling of connection with the people who matter to you?</p>
-				<p>Are you tired of living a life of scarcity and limitation?</p>
-				<p>Are you ready to discover your life's primary purpose and realize you are the source of your own abundance?</p>
+				<h2 class="jc-h3 jc-are-you-willing_title u-align-self-center u-margin-bottom--64">Are You Willing to Remove Fear From Your Life?</h2>
+				<p class="u-margin-bottom--32">Do you use studies and research to build a better body?</p>
+				<p class="u-margin-bottom--32">Are you tired of being lied to by the mainstream media?</p>
+				<p class="u-margin-bottom--32">Are you confident you can still look and feel your best as you get older?</p>
+				<p class="u-margin-bottom--32">Could you strengthen your feeling of connection with the people who matter to you?</p>
+				<p class="u-margin-bottom--32">Are you tired of living a life of scarcity and limitation?</p>
+				<p class="u-margin-bottom--64">Are you ready to discover your life's primary purpose and realize you are the source of your own abundance?</p>
 				<a class="jc-btn jc-btn--prime jc-are-you-willing_btn u-align-self-center">
 					Yes, show me the way!
 				</a>
@@ -130,7 +130,7 @@ if ( is_home() ) {
 		<!-- Has Appeared On -->
 		<article class="jc-section jc-has-appeared-on">
 			<div class="jc-section_container jc-has-appeared-on_container u-align-self-center">
-				<h2 class="jc-h4 u-align-self-center">Jay has appeared on...</h2>
+				<h2 class="jc-h4 u-align-self-center u-margin-bottom--48">Jay has appeared on...</h2>
 				<div class="jc-block-list jc-block-list--appeared-on">
 					<div class="jc-block">
 						<img class="jc-block_img jc-block_img--abc" alt="ABC Logo" height="52" src="https://assets.cdn.watchdisneyfe.com/delta/assets/abc/abc.png" />
@@ -154,15 +154,21 @@ if ( is_home() ) {
 		<!-- pod Cast Episodes -->
 		<article class="jc-section jc-blog-list u-bg-gray-100">
 			<div class="jc-section_container u-width-960">
-				<h2 class="jc-h4">Recent Podcast Episodes</h2>
+				<h2 class="jc-h4 u-margin-bottom--32">Recent Podcast Episodes</h2>
 				<div class="jc-card-list">
 
 					<div class="jc-card">
-						<picture class="jc-card_picture">
-							<img class="jc-card_img" alt="podcast image" src="https://www.fillmurray.com/384/256"/>
-						</picture>
+						<a href="#" class="jc-card_media">
+							<picture class="jc-card_picture">
+								<img class="jc-card_img" alt="podcast image" src="https://www.fillmurray.com/384/256"/>
+							</picture>
+						</a>
 						<div class="jc-card_body">
-							<h3 class="jc-h4 jc-card_title">This Is a Podcast Episode ipsum dolor amet frankfurter rump chislic, burgdoggen </h3>
+							<h3 class="jc-h4 jc-card_title">
+								<a href="#" class="jc-card_title-link">
+									This Is a Podcast Episode ipsum dolor amet frankfurter rump chislic, burgdoggen
+								</a>
+							</h3>
 							<main class="jc-card_content">Bacon ipsum dolor amet frankfurter rump chislic, burgdoggen meatball cupim bacon ham biltong pork salami kielbasa venison turducken. Bacon ipsum dolor amet frankfurter rump chislic. Bacon ipsum dolor amet frankfurter rump chislic, burgdoggen meatball cupim bacon ham biltong pork salami kielbasa venison turducken. Bacon ipsum dolor amet frankfurter rump chislic.</main>
 							<footer class="jc-card_footer">
 								<time class="jc-card_date" datetime="">January 1, 2020</time>
@@ -172,11 +178,17 @@ if ( is_home() ) {
 					</div>
 
 					<div class="jc-card">
-						<picture class="jc-card_picture">
-							<img class="jc-card_img" alt="podcast image" src="https://www.fillmurray.com/384/256"/>
-						</picture>
+						<a href="#" class="jc-card_media">
+							<picture class="jc-card_picture">
+								<img class="jc-card_img" alt="podcast image" src="https://www.fillmurray.com/384/256"/>
+							</picture>
+						</a>
 						<div class="jc-card_body">
-							<h3 class="jc-h4 jc-card_title">This Is a Podcast Episode</h3>
+							<h3 class="jc-h4 jc-card_title">
+								<a href="#" class="jc-card_title-link">
+									This Is a Podcast Episode
+								</a>
+							</h3>
 							<main class="jc-card_content">Bacon ipsum dolor amet frankfurter rump chislic, burgdoggen meatball cupim bacon ham biltong pork salami kielbasa venison turducken. Bacon ipsum dolor amet frankfurter rump chislic.</main>
 							<footer class="jc-card_footer">
 								<time class="jc-card_date" datetime="">January 1, 2020</time>
@@ -186,11 +198,17 @@ if ( is_home() ) {
 					</div>
 
 					<div class="jc-card">
-						<picture class="jc-card_picture">
-							<img class="jc-card_img" alt="podcast image" src="https://www.fillmurray.com/384/256"/>
-						</picture>
+						<a href="#" class="jc-card_media">
+							<picture class="jc-card_picture">
+								<img class="jc-card_img" alt="podcast image" src="https://www.fillmurray.com/384/256"/>
+							</picture>
+						</a>
 						<div class="jc-card_body">
-							<h3 class="jc-h4 jc-card_title">This Is a Podcast Episode</h3>
+							<h3 class="jc-h4 jc-card_title">
+								<a href="#" class="jc-card_title-link">
+									This Is a Podcast Episode
+								</a>
+							</h3>
 							<main class="jc-card_content">Bacon ipsum dolor amet frankfurter rump chislic, burgdoggen meatball cupim bacon ham biltong pork salami kielbasa venison turducken. Bacon ipsum dolor amet frankfurter rump chislic.</main>
 							<footer class="jc-card_footer">
 								<time class="jc-card_date" datetime="">January 1, 2020</time>
@@ -200,18 +218,24 @@ if ( is_home() ) {
 					</div>
 				</div>
 
-				<a class="jc-link--prime u-align-self-center" href="#">
+				<a class="jc-link--prime u-align-self-center u-margin-bottom--64" href="#">
 					View all podcast episodes
 				</a>
 
-				<h2 class="jc-h4">Recent Blog Posts</h2>
+				<h2 class="jc-h4 u-margin-bottom--32">Recent Blog Posts</h2>
 				<div class="jc-card-list">
 					<div class="jc-card">
-						<picture class="jc-card_picture">
-							<img class="jc-card_img" src="https://www.fillmurray.com/384/256"/>
-						</picture>
+						<a href="#" class="jc-card_media">
+							<picture class="jc-card_picture">
+								<img class="jc-card_img" src="https://www.fillmurray.com/384/256">
+							</picture>
+						</a>
 						<div class="jc-card_body">
-							<h3 class="jc-h4 jc-card_title">This Is a Podcast Episode</h3>
+							<h3 class="jc-h4 jc-card_title">
+								<a href="#" class="jc-card_title-link">
+									This Is a Podcast Episode
+								</a>
+							</h3>
 							<main class="jc-card_content">Bacon ipsum dolor amet frankfurter rump chislic, burgdoggen meatball cupim bacon ham biltong pork salami kielbasa venison turducken. Bacon ipsum dolor amet frankfurter rump chislic.</main>
 							<footer class="jc-card_footer">
 								<time class="jc-card_date" datetime="">January 1, 2020</time>
@@ -221,11 +245,17 @@ if ( is_home() ) {
 					</div>
 
 					<div class="jc-card">
-						<picture class="jc-card_picture">
-							<img class="jc-card_img" src="https://www.fillmurray.com/384/256"/>
-						</picture>
+						<a href="#" class="jc-card_media">
+							<picture class="jc-card_picture">
+								<img alt="name here" class="jc-card_img" src="https://www.fillmurray.com/384/256"/>
+							</picture>
+						</a>
 						<div class="jc-card_body">
-							<h3 class="jc-h4 jc-card_title">This Is a Podcast Episode</h3>
+							<h3 class="jc-h4 jc-card_title">
+								<a href="#" class="jc-card_title-link">
+									This Is a Podcast Episode
+								</a>
+							</h3>
 							<main class="jc-card_content">Bacon ipsum dolor amet frankfurter rump chislic, burgdoggen meatball cupim bacon ham biltong pork salami kielbasa venison turducken. Bacon ipsum dolor amet frankfurter rump chislic.</main>
 							<footer class="jc-card_footer">
 								<time class="jc-card_date" datetime="">January 1, 2020</time>
@@ -235,11 +265,17 @@ if ( is_home() ) {
 					</div>
 
 					<div class="jc-card">
-						<picture class="jc-card_picture">
-							<img class="jc-card_img" alt="podcast image" src="https://www.fillmurray.com/384/256"/>
-						</picture>
+						<a href="#" class="jc-card_media">
+							<picture class="jc-card_picture">
+								<img class="jc-card_img" alt="podcast image" src="https://www.fillmurray.com/384/256"/>
+							</picture>
+						</a>
 						<div class="jc-card_body">
-							<h3 class="jc-h4 jc-card_title">This Is a Podcast Episode</h3>
+							<h3 class="jc-h4 jc-card_title">
+								<a href="#" class="jc-card_title-link">
+									This Is a Podcast Episode
+								</a>
+							</h3>
 							<main class="jc-card_content">Bacon ipsum dolor amet frankfurter rump chislic, burgdoggen meatball cupim bacon ham biltong pork salami kielbasa venison turducken. Bacon ipsum dolor amet frankfurter rump chislic.</main>
 							<footer class="jc-card_footer">
 								<time class="jc-card_date" datetime="">January 1, 2020</time>

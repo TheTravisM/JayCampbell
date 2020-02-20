@@ -51,13 +51,8 @@
 	position: relative;
 }
 
-.jc-are-you-willing_title {
-	font-size: 36px;
-	align-self: center;
-}
+.jc-are-you-willing_title { }
 
-.jc-are-you-willing_btn {
-	margin-top: 64px;
-}
+.jc-are-you-willing_btn { }
 
 /* -- Has Appeared On -- */

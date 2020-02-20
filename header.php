@@ -39,7 +39,7 @@ namespace WP_Rig\WP_Rig;
 	</a>
 
 	<!-- Help Full Links -->
-	<ul>
+	<ul class="jc-block-list u-bg-gray-100">
 		<li>
 			<a href="https://www.figma.com/file/NOb3pjWMj47FvKwOlT3OPC/JayCCampbell.com" target="_blank">Figma</a>
 		</li>
