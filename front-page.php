@@ -155,139 +155,124 @@ if ( is_home() ) {
 		<article class="jc-section jc-blog-list u-bg-gray-100">
 			<div class="jc-section_container u-width-960">
 				<h2 class="jc-h4 u-margin-bottom--32">Recent Podcast Episodes</h2>
+
 				<div class="jc-card-list">
+					<?php
+						$args = array(
+							'post_type' => 'post',
+							'post_status' => 'publish',
+							'category_name' => 'podcast',
+							'posts_per_page' => 3,
+							'paged' => $paged,
+						);
+						$arr_posts = new \WP_Query( $args );
 
-					<div class="jc-card">
-						<a href="#" class="jc-card_media">
-							<picture class="jc-card_picture">
-								<img class="jc-card_img" alt="podcast image" src="https://www.fillmurray.com/384/256"/>
-							</picture>
-						</a>
-						<div class="jc-card_body">
-							<h3 class="jc-h4 jc-card_title">
-								<a href="#" class="jc-card_title-link">
-									This Is a Podcast Episode ipsum dolor amet frankfurter rump chislic, burgdoggen
-								</a>
-							</h3>
-							<main class="jc-card_content">Bacon ipsum dolor amet frankfurter rump chislic, burgdoggen meatball cupim bacon ham biltong pork salami kielbasa venison turducken. Bacon ipsum dolor amet frankfurter rump chislic. Bacon ipsum dolor amet frankfurter rump chislic, burgdoggen meatball cupim bacon ham biltong pork salami kielbasa venison turducken. Bacon ipsum dolor amet frankfurter rump chislic.</main>
-							<footer class="jc-card_footer">
-								<time class="jc-card_date" datetime="">January 1, 2020</time>
-								<a class="jc-badge jc-badge--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
-							</footer>
-						</div>
-					</div>
+						if ( $arr_posts->have_posts() ) :
 
-					<div class="jc-card">
-						<a href="#" class="jc-card_media">
-							<picture class="jc-card_picture">
-								<img class="jc-card_img" alt="podcast image" src="https://www.fillmurray.com/384/256"/>
-							</picture>
-						</a>
-						<div class="jc-card_body">
-							<h3 class="jc-h4 jc-card_title">
-								<a href="#" class="jc-card_title-link">
-									This Is a Podcast Episode
-								</a>
-							</h3>
-							<main class="jc-card_content">Bacon ipsum dolor amet frankfurter rump chislic, burgdoggen meatball cupim bacon ham biltong pork salami kielbasa venison turducken. Bacon ipsum dolor amet frankfurter rump chislic.</main>
-							<footer class="jc-card_footer">
-								<time class="jc-card_date" datetime="">January 1, 2020</time>
-								<a class="jc-badge jc-badge--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
-							</footer>
-						</div>
-					</div>
+							while ( $arr_posts->have_posts() ) :
+								$arr_posts->the_post();
+								?>
 
-					<div class="jc-card">
-						<a href="#" class="jc-card_media">
-							<picture class="jc-card_picture">
-								<img class="jc-card_img" alt="podcast image" src="https://www.fillmurray.com/384/256"/>
-							</picture>
-						</a>
-						<div class="jc-card_body">
-							<h3 class="jc-h4 jc-card_title">
-								<a href="#" class="jc-card_title-link">
-									This Is a Podcast Episode
-								</a>
-							</h3>
-							<main class="jc-card_content">Bacon ipsum dolor amet frankfurter rump chislic, burgdoggen meatball cupim bacon ham biltong pork salami kielbasa venison turducken. Bacon ipsum dolor amet frankfurter rump chislic.</main>
-							<footer class="jc-card_footer">
-								<time class="jc-card_date" datetime="">January 1, 2020</time>
-								<a class="jc-badge jc-badge--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
-							</footer>
-						</div>
-					</div>
-				</div>
+								<!-- //TODO: Show Fallback image-->
 
-				<a class="jc-link--prime u-align-self-center u-margin-bottom--64" href="#">
-					View all podcast episodes
+								<article id="post-<?php the_ID(); ?>" <?php post_class('jc-card'); ?>>
+									<a href="<?php the_permalink(); ?>" class="jc-card_media">
+										<picture class="jc-card_picture">
+											<?php if ( has_post_thumbnail() ) {
+												the_post_thumbnail('', array('class' => 'jc-card_img'));
+											} else { ?>
+												<img class="jc-card_img" src="https://www.fillmurray.com/384/256/" alt="fillmurry" />
+											<?php } ?>
+										</picture>
+									</a>
+									<div class="jc-card_body">
+										<h3 class="jc-h4 jc-card_title">
+											<a href="<?php the_permalink(); ?>" class="jc-card_title-link">
+												<?php the_title(); ?>
+											</a>
+										</h3>
+										<main class="jc-card_content">
+											<?php the_excerpt(); ?>
+										</main>
+										<footer class="jc-card_footer">
+											<time class="jc-card_date" datetime="<?php the_time('F jS Y')?>">
+												<?php the_time('F jS Y')?>
+											</time>
+											<a class="jc-badge jc-badge--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
+										</footer>
+									</div>
+								</article>
+								<?php
+							endwhile;
+						endif;
+					?>
+				</div><!-- End Card List -->
+
+				<a class="jc-link--prime u-align-self-center u-margin-bottom--64" href="<?php echo esc_url( $podcast_category_link ); ?>">
+					View all blog posts
 				</a>
 
 				<h2 class="jc-h4 u-margin-bottom--32">Recent Blog Posts</h2>
+
 				<div class="jc-card-list">
-					<div class="jc-card">
-						<a href="#" class="jc-card_media">
-							<picture class="jc-card_picture">
-								<img class="jc-card_img" src="https://www.fillmurray.com/384/256">
-							</picture>
-						</a>
-						<div class="jc-card_body">
-							<h3 class="jc-h4 jc-card_title">
-								<a href="#" class="jc-card_title-link">
-									This Is a Podcast Episode
-								</a>
-							</h3>
-							<main class="jc-card_content">Bacon ipsum dolor amet frankfurter rump chislic, burgdoggen meatball cupim bacon ham biltong pork salami kielbasa venison turducken. Bacon ipsum dolor amet frankfurter rump chislic.</main>
-							<footer class="jc-card_footer">
-								<time class="jc-card_date" datetime="">January 1, 2020</time>
-								<a class="jc-badge jc-badge--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
-							</footer>
-						</div>
-					</div>
 
-					<div class="jc-card">
-						<a href="#" class="jc-card_media">
-							<picture class="jc-card_picture">
-								<img alt="name here" class="jc-card_img" src="https://www.fillmurray.com/384/256"/>
-							</picture>
-						</a>
-						<div class="jc-card_body">
-							<h3 class="jc-h4 jc-card_title">
-								<a href="#" class="jc-card_title-link">
-									This Is a Podcast Episode
-								</a>
-							</h3>
-							<main class="jc-card_content">Bacon ipsum dolor amet frankfurter rump chislic, burgdoggen meatball cupim bacon ham biltong pork salami kielbasa venison turducken. Bacon ipsum dolor amet frankfurter rump chislic.</main>
-							<footer class="jc-card_footer">
-								<time class="jc-card_date" datetime="">January 1, 2020</time>
-								<a class="jc-badge jc-badge--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
-							</footer>
-						</div>
-					</div>
+					<?php
+					$args = array(
+						'post_type' => 'post',
+						'post_status' => 'publish',
+						'category_name' => 'blog',
+						'posts_per_page' => 3,
+						'paged' => $paged,
+					);
+					$arr_posts = new \WP_Query( $args );
 
-					<div class="jc-card">
-						<a href="#" class="jc-card_media">
-							<picture class="jc-card_picture">
-								<img class="jc-card_img" alt="podcast image" src="https://www.fillmurray.com/384/256"/>
-							</picture>
-						</a>
-						<div class="jc-card_body">
-							<h3 class="jc-h4 jc-card_title">
-								<a href="#" class="jc-card_title-link">
-									This Is a Podcast Episode
-								</a>
-							</h3>
-							<main class="jc-card_content">Bacon ipsum dolor amet frankfurter rump chislic, burgdoggen meatball cupim bacon ham biltong pork salami kielbasa venison turducken. Bacon ipsum dolor amet frankfurter rump chislic.</main>
-							<footer class="jc-card_footer">
-								<time class="jc-card_date" datetime="">January 1, 2020</time>
-								<a class="jc-badge jc-badge--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
-							</footer>
-						</div>
-					</div>
-				</div>
+					if ( $arr_posts->have_posts() ) :
 
-				<a class="jc-link--prime u-align-self-center" href="#">
-					View all blog posts
+						while ( $arr_posts->have_posts() ) :
+							$arr_posts->the_post();
+							?>
+
+							<article id="post-<?php the_ID(); ?>" <?php post_class('jc-card'); ?>>
+								<a href="<?php the_permalink(); ?>" class="jc-card_media">
+									<picture class="jc-card_picture">
+										<?php if ( has_post_thumbnail() ) {
+											the_post_thumbnail('', array('class' => 'jc-card_img'));
+										} else { ?>
+											<img class="jc-card_img" src="https://www.fillmurray.com/384/256/"  alt="fillmurry" />
+										<?php } ?>
+									</picture>
+								</a>
+								<div class="jc-card_body">
+									<h3 class="jc-h4 jc-card_title">
+										<a href="<?php the_permalink(); ?>" class="jc-card_title-link">
+											<?php the_title(); ?>
+										</a>
+									</h3>
+									<main class="jc-card_content">
+										<?php the_excerpt(); ?>
+									</main>
+									<footer class="jc-card_footer">
+										<time class="jc-card_date" datetime="<?php the_time('F jS Y')?>">
+											<?php the_time('F jS Y')?>
+										</time>
+
+								<!-- //TODO: IF HAS TAGS SHOW TAGS-->
+
+										<a class="jc-badge jc-badge--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
+									</footer>
+								</div>
+							</article>
+						<?php
+						endwhile;
+					endif;
+					?>
+				</div><!-- End Card List -->
+
+				<a class="jc-link--prime u-align-self-center u-margin-bottom--64" href="<?php echo esc_url( $category_link_podcast ); ?>" >
+					View all podcast episodes
 				</a>
+
+
 			</div>
 		</article>
 

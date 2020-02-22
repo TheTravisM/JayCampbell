@@ -89,7 +89,9 @@ class Component implements Component_Interface, Templating_Component_Interface {
 
 			if ( ! in_array( basename( $template ), [
 				'front-page.php',
+				'page.php',
 				'single.php',
+				'category.php',
 				'jc-start-here-page.php',
 				'jc-thank-you-page.php',
 				'404.php',

@@ -96,15 +96,28 @@ namespace WP_Rig\WP_Rig;
 			<nav class="jc-header-nav">
 				<ul class="jc-header-nav_ul">
 					<li class="jc-header-nav_li">
-						<a class="jc-header-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>podcast" rel="podcast">
+						<?php
+							/* Get the ID of a given category */
+							$podcast_category_id = get_cat_ID( 'podcast' );
+							/* Get the URL of this category */
+							$podcast_category_link = get_category_link( $podcast_category_id );
+						?>
+						<a class="jc-header-nav_link" href="<?php echo esc_url( $podcast_category_link ); ?>" rel="podcast">
 							Podcast
 						</a>
 					</li>
+					<?php
+						/* Get the ID of a given category */
+						$blog_category_id = get_cat_ID( 'blog' );
+						/* Get the URL of this category */
+						$blog_category_link = get_category_link( $blog_category_id );
+					?>
 					<li class="jc-header-nav_li">
-						<a class="jc-header-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>blog" rel="blog">
+						<a class="jc-header-nav_link" href="<?php echo esc_url( $blog_category_link ); ?>" rel="blog">
 							Blog
 						</a>
 					</li>
+
 					<li class="jc-header-nav_li">
 						<a class="jc-header-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>products" rel="products">
 							Products
