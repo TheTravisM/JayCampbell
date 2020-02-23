@@ -177,7 +177,7 @@ if ( is_home() ) {
 
 								<article id="post-<?php the_ID(); ?>" <?php post_class('jc-card'); ?>>
 									<a href="<?php the_permalink(); ?>" class="jc-card_media">
-										<picture class="jc-card_picture">
+										<picture class="jc-card_picture" style="background-image:url('<?php bloginfo('template_directory'); ?>/assets/images/thumbnail-default-img.svg');">
 											<?php if ( has_post_thumbnail() ) {
 												the_post_thumbnail('', array('class' => 'jc-card_img'));
 											} else { ?>
@@ -234,7 +234,7 @@ if ( is_home() ) {
 
 							<article id="post-<?php the_ID(); ?>" <?php post_class('jc-card'); ?>>
 								<a href="<?php the_permalink(); ?>" class="jc-card_media">
-									<picture class="jc-card_picture">
+									<picture class="jc-card_picture" style="background-image:url('<?php bloginfo('template_directory'); ?>/assets/images/thumbnail-default-img.svg');">
 										<?php if ( has_post_thumbnail() ) {
 											the_post_thumbnail('', array('class' => 'jc-card_img'));
 										} else { ?>
