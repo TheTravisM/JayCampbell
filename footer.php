@@ -13,7 +13,7 @@ namespace WP_Rig\WP_Rig;
 
 ?>
 	<!-- EMAIL SIGN UP -->
-	<article class="jc-email-sign-up_section jc-page_section">
+	<article class="jc-email-sign-up_section">
 		<div class="jc-email-sign-up_container jc-page_container">
 			<h2 class="jc-h3 jc-email-sign-up_title">
 				Sign up for Jay’s email list and get a free PDF!

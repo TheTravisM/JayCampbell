@@ -94,6 +94,8 @@ class Component implements Component_Interface, Templating_Component_Interface {
 				'category.php',
 				'jc-start-here-page.php',
 				'jc-thank-you-page.php',
+				'jc-blog-page.php',
+				'jc-podcast-page.php',
 				'404.php',
 				'500.php',
 				'offline.php' ]

@@ -39,20 +39,20 @@ namespace WP_Rig\WP_Rig;
 	</a>
 
 	<!-- Help Full Links -->
-	<ul class="jc-block-list u-bg-gray-100">
-		<li>
-			<a href="https://www.figma.com/file/NOb3pjWMj47FvKwOlT3OPC/JayCCampbell.com" target="_blank">Figma</a>
-		</li>
-		<li>
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>start-here" target="_blank">start here</a>
-		</li>
-		<li>
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>thank-you-page" target="_blank">Thank You Page</a>
-		</li>
-		<li>
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>404" target="_blank">404</a>
-		</li>
-	</ul>
+<!--	<ul class="jc-block-list u-bg-gray-100">-->
+<!--		<li>-->
+<!--			<a href="https://www.figma.com/file/NOb3pjWMj47FvKwOlT3OPC/JayCCampbell.com" target="_blank">Figma</a>-->
+<!--		</li>-->
+<!--		<li>-->
+<!--			<a href="--><?php //echo esc_url( home_url( '/' ) ); ?><!--start-here" target="_blank">start here</a>-->
+<!--		</li>-->
+<!--		<li>-->
+<!--			<a href="--><?php //echo esc_url( home_url( '/' ) ); ?><!--thank-you-page" target="_blank">Thank You Page</a>-->
+<!--		</li>-->
+<!--		<li>-->
+<!--			<a href="--><?php //echo esc_url( home_url( '/' ) ); ?><!--404" target="_blank">404</a>-->
+<!--		</li>-->
+<!--	</ul>-->
 
 
 	<header id="masthead" class="jc-header">
@@ -96,24 +96,12 @@ namespace WP_Rig\WP_Rig;
 			<nav class="jc-header-nav">
 				<ul class="jc-header-nav_ul">
 					<li class="jc-header-nav_li">
-						<?php
-							/* Get the ID of a given category */
-							$podcast_category_id = get_cat_ID( 'podcast' );
-							/* Get the URL of this category */
-							$podcast_category_link = get_category_link( $podcast_category_id );
-						?>
-						<a class="jc-header-nav_link" href="<?php echo esc_url( $podcast_category_link ); ?>" rel="podcast">
+						<a class="jc-header-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>podcast" rel="podcast">
 							Podcast
 						</a>
 					</li>
-					<?php
-						/* Get the ID of a given category */
-						$blog_category_id = get_cat_ID( 'blog' );
-						/* Get the URL of this category */
-						$blog_category_link = get_category_link( $blog_category_id );
-					?>
 					<li class="jc-header-nav_li">
-						<a class="jc-header-nav_link" href="<?php echo esc_url( $blog_category_link ); ?>" rel="blog">
+						<a class="jc-header-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>blog" rel="blog">
 							Blog
 						</a>
 					</li>

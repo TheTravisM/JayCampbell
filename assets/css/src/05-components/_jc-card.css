@@ -43,19 +43,18 @@
 
 .jc-card_picture {
 	display: flex;
-	width: 100%;
-	max-width: 384px;
+	width: 384px;
 	min-height: 256px;
 	height: auto;
 	max-height: 256px;
 	align-self: flex-start;
 	overflow: hidden;
-	background: center no-repeat;
+	background: var(--jc-color-gray-100, #f1f1f1) center no-repeat;
 }
 
 .jc-card_img {
-	/* Grey 200 */
-	background: #E4E4E4;
+	background: #E4E4E4; /* Grey 200 */
+	background: var(--jc-color-gray-200, #E4E4E4); /* Grey 200 */
 	transition: transform 1s ease;
 	transform: scale(1);
 }
@@ -141,9 +140,6 @@
 	}
 
 	.jc-card_picture {
-		width: 384px;
-		height: auto;
-		max-height: 256px;
 	}
 
 	.jc-card_content {

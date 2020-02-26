@@ -278,30 +278,19 @@ if ( is_home() ) {
 
 
 		<!-- Badges -->
-		<article  class="jc-section u-bg-gray-100">
-			<div class="jc-section_container">
-				<div class="jc-badge_list">
-					<a class="jc-badge" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/">Badge</a>
-					<a class="jc-badge jc-badge--energy" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/energy">Energy</a>
-					<a class="jc-badge jc-badge--heart" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/heart">Heart</a>
-					<a class="jc-badge jc-badge--mental" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/mental">Mental</a>
-					<a class="jc-badge jc-badge--nutritional" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/nutritional">Nutritional</a>
-					<a class="jc-badge jc-badge--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
-					<a class="jc-badge jc-badge--sexual" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/sexual">Sexual</a>
-				</div>
-			</div>
-		</article>
-
-
-		<?php
-			while ( have_posts() ) {
-				the_post();
-
-				get_template_part( 'template-parts/content/entry', get_post_type() );
-			}
-
-			get_template_part( 'template-parts/content/pagination' );
-		?>
+<!--		<article  class="jc-section u-bg-gray-100">-->
+<!--			<div class="jc-section_container">-->
+<!--				<div class="jc-badge_list">-->
+<!--					<a class="jc-badge" href="--><?php //echo esc_url( home_url( '/' ) ); ?><!--tag/">Badge</a>-->
+<!--					<a class="jc-badge jc-badge--energy" href="--><?php //echo esc_url( home_url( '/' ) ); ?><!--tag/energy">Energy</a>-->
+<!--					<a class="jc-badge jc-badge--heart" href="--><?php //echo esc_url( home_url( '/' ) ); ?><!--tag/heart">Heart</a>-->
+<!--					<a class="jc-badge jc-badge--mental" href="--><?php //echo esc_url( home_url( '/' ) ); ?><!--tag/mental">Mental</a>-->
+<!--					<a class="jc-badge jc-badge--nutritional" href="--><?php //echo esc_url( home_url( '/' ) ); ?><!--tag/nutritional">Nutritional</a>-->
+<!--					<a class="jc-badge jc-badge--physical" href="--><?php //echo esc_url( home_url( '/' ) ); ?><!--tag/physical">Physical</a>-->
+<!--					<a class="jc-badge jc-badge--sexual" href="--><?php //echo esc_url( home_url( '/' ) ); ?><!--tag/sexual">Sexual</a>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</article>-->
 
 	</main><!-- #primary 1-->
 	<?php

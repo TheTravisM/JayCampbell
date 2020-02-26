@@ -2,11 +2,12 @@
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	background: var(--jc-color-red-500, #F5424B); /* Red 500 */
+	background: #FFF; /* White */
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Shadow 1 */
-	border: 2px solid #F5424B; /* Red 500 */
+	border: 2px solid #FFF; /* White */
 	border-radius: 2px;
-	color: #fff;
+	color: #818181;
+	color: var(--jc-color-gray-500, #818181); /* Grey 500 */
 	font-size: 18px;
 	min-height: 44px;
 	padding: 8px 24px;
@@ -14,6 +15,7 @@
 	text-decoration: none;
 	cursor: pointer;
 }
+
 .jc-btn:disabled {
 	color: #FFF;
 	background-color: var(--jc-color-gray-300, #C5C5C5); /* Grey 300 */
