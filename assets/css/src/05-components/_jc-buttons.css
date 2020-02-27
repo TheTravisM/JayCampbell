@@ -1,4 +1,5 @@
-.jc-btn {
+.jc-btn,
+.jc-btn:visited {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;

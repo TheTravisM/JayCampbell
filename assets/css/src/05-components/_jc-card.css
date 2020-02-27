@@ -53,10 +53,11 @@
 }
 
 .jc-card_img {
-	background: #E4E4E4; /* Grey 200 */
-	background: var(--jc-color-gray-200, #E4E4E4); /* Grey 200 */
+	background: #262626;
+	background: var(--jc-color-gray-900, #262626);
 	transition: transform 1s ease;
 	transform: scale(1);
+	object-fit: cover;
 }
 
 .jc-card_img:hover {

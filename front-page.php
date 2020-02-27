@@ -208,8 +208,8 @@ if ( is_home() ) {
 					?>
 				</div><!-- End Card List -->
 
-				<a class="jc-link--prime u-align-self-center u-margin-bottom--64" href="<?php echo esc_url( $podcast_category_link ); ?>">
-					View all blog posts
+				<a class="jc-link--prime u-align-self-center u-margin-bottom--64" href="<?php echo esc_url( home_url( '/' ) ); ?>podcast">
+					View all podcast episodes
 				</a>
 
 				<h2 class="jc-h4 u-margin-bottom--32">Recent Blog Posts</h2>
@@ -268,8 +268,8 @@ if ( is_home() ) {
 					?>
 				</div><!-- End Card List -->
 
-				<a class="jc-link--prime u-align-self-center u-margin-bottom--64" href="<?php echo esc_url( $category_link_podcast ); ?>" >
-					View all podcast episodes
+				<a class="jc-link--prime u-align-self-center u-margin-bottom--64" href="<?php echo esc_url( home_url( '/' ) ); ?>blog" rel="blog" >
+					View all blog posts
 				</a>
 
 

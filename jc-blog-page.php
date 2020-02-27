@@ -34,14 +34,13 @@ wp_rig()->print_styles( 'wp-rig-content' );
 		<section class="jc-section jc-blog-list">
 			<div class="jc-section_container u-width-960">
 
-				<div class="jc-badge_list u-margin-bottom--48">
-					<a class="jc-btn jc-btn-prime" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/">Badge</a>
-					<a class="jc-btn" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/energy">Energy</a>
-					<a class="jc-btn" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/heart">Heart</a>
-					<a class="jc-btn" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/mental">Mental</a>
-					<a class="jc-btn" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/nutritional">Nutritional</a>
-					<a class="jc-btn" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
-					<a class="jc-btn" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/sexual">Sexual</a>
+				<div class="jc-tag-banner_list u-margin-bottom--48">
+					<a class="jc-btn jc-tag-banner_btn" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
+					<a class="jc-btn jc-tag-banner_btn" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/nutritional">Nutritional</a>
+					<a class="jc-btn jc-tag-banner_btn" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/sexual">Sexual</a>
+					<a class="jc-btn jc-tag-banner_btn" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/energy">Energy</a>
+					<a class="jc-btn jc-tag-banner_btn" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/heart">Heart</a>
+					<a class="jc-btn jc-tag-banner_btn" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/mental">Mental</a>
 				</div>
 
 
