@@ -94,3 +94,14 @@
 	color: #A5A5A5; /* Grey 400 */
 	color: var(--jc-color-gray-400, #A5A5A5);  /* Grey 400 */
 }
+
+/* Styles for the footer wigetized area */
+.footer-widgets-area {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 40px;
+}
+
+.footer-widgets-area * {
+	min-width: 0;
+}
