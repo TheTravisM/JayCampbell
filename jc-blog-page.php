@@ -88,8 +88,17 @@ wp_rig()->print_styles( 'wp-rig-content' );
 											<time class="jc-card_date" datetime="<?php the_time('F jS Y')?>">
 												<?php the_time('F jS Y')?>
 											</time>
-											<a>tags</a>
-											<a class="jc-badge jc-badge--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
+
+											<?php if(has_tag()) : ?>
+												<aside class="jc-card_tag-list">
+													<?php
+													$tags = get_the_tags(get_the_ID());
+													foreach($tags as $tag){
+														echo ' <a href="'.get_tag_link($tag->term_id).'" rel="tag" class="jc-badge jc-badge--'.$tag->name.'">'.$tag->name.'</a>';
+													} ?>
+												</aside>
+											<?php endif; ?>
+
 										</footer>
 									</div>
 								</article>

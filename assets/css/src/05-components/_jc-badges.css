@@ -6,7 +6,8 @@
 	grid-gap: 16px;
 }
 
-.jc-badge {
+.jc-badge,
+.jc-badge:visited {
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
@@ -28,7 +29,8 @@
 	color: var(--jc-color-gray-700, #4E4E4E); /* Gray 700 */
 }
 
-.jc-badge--energy {
+.jc-badge--energy,
+.jc-badge--energy:visited {
 	background: var(--jc-color-violet-100, #FFECFC); /* Violet 100 */
 	color: var(--jc-color-violet-600, #9E2E8B); /* Violet 600 */
 }
@@ -40,7 +42,8 @@
 	color: var(--jc-color-violet-700, #2D3294); /* Violet 700 */
 }
 
-.jc-badge--heart {
+.jc-badge--heart,
+.jc-badge--heart:visited {
 	background: var(--jc-color-blue-100, #EAFAFF); /* Blue 100 */
 	color: var(--jc-color-blue-700, #006A8A); /* Blue 700 */
 }
@@ -52,7 +55,7 @@
 	color: var(--jc-color-blue-800, #005068); /* Blue 700 */
 }
 
-.jc-badge--mental {
+.jc-badge--mental:visited {
 	background: var(--jc-color-green-100, #F5FFE6); /* Green 100 */
 	color: var(--jc-color-green-600, #5A870F); /* Green 700 */
 }
@@ -63,8 +66,8 @@
 	background: var(--jc-color-green-200, #E5FFB9); /* Green 200 */
 	color: var(--jc-color-green-800, #416800); /* Green 800 */
 }
-
-.jc-badge--nutritional {
+.jc-badge--nutritional,
+.jc-badge--nutritional:visited {
 	background: var(--jc-color-orange-100, #FFF5EC); /* Orange 100 */
 	color: var(--jc-color-orange-700, #C45E00); /* Orange 700 */
 }
@@ -76,7 +79,8 @@
 	color: var(--jc-color-orange-800, #9B4A00); /* Orange 800 */
 }
 
-.jc-badge--physical {
+.jc-badge--physical,
+.jc-badge--physical:visited {
 	background: var(--jc-color-red-100, #FFEDEE); /* Red 100 */
 	color: var(--jc-color-red-700, #C30009); /* Red 700 */
 }
@@ -88,7 +92,8 @@
 	color: var(--jc-color-red-800, #810006); /* Red 800 */
 }
 
-.jc-badge--sexual {
+.jc-badge--sexual,
+.jc-badge--sexual:visited {
 	background: var(--jc-color-yellow-100, #FFFAEA); /* Yellow 100 */
 	color: var(--jc-color-yellow-700, #A88300); /* Yellow 700 */
 }

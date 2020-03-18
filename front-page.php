@@ -228,7 +228,17 @@ if ( is_home() ) {
 											<time class="jc-card_date" datetime="<?php the_time('F jS Y')?>">
 												<?php the_time('F jS Y')?>
 											</time>
-											<a class="jc-badge jc-badge--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
+
+											<?php if(has_tag()) : ?>
+												<aside class="jc-card_tag-list">
+													<?php
+													$tags = get_the_tags(get_the_ID());
+													foreach($tags as $tag){
+														echo ' <a href="'.get_tag_link($tag->term_id).'" rel="tag" class="jc-badge jc-badge--'.$tag->name.'">'.$tag->name.'</a>';
+													} ?>
+												</aside>
+											<?php endif; ?>
+
 										</footer>
 									</div>
 								</article>
@@ -286,9 +296,16 @@ if ( is_home() ) {
 											<?php the_time('F jS Y')?>
 										</time>
 
-								<!-- //TODO: IF HAS TAGS SHOW TAGS-->
+										<?php if(has_tag()) : ?>
+											<aside class="jc-card_tag-list">
+												<?php
+												$tags = get_the_tags(get_the_ID());
+												foreach($tags as $tag){
+													echo ' <a href="'.get_tag_link($tag->term_id).'" rel="tag" class="jc-badge jc-badge--'.$tag->name.'">'.$tag->name.'</a>';
+												} ?>
+											</aside>
+										<?php endif; ?>
 
-										<a class="jc-badge jc-badge--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
 									</footer>
 								</div>
 							</article>
