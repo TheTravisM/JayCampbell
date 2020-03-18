@@ -107,8 +107,8 @@ namespace WP_Rig\WP_Rig;
 					</li>
 
 					<li class="jc-header-nav_li">
-						<a class="jc-header-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>products" rel="products">
-							Products
+						<a class="jc-header-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>store" rel="store">
+							Store
 						</a>
 					</li>
 					<li class="jc-header-nav_li">
@@ -116,11 +116,13 @@ namespace WP_Rig\WP_Rig;
 							Resources
 						</a>
 					</li>
+					<!-- TODO: Add Contact Back Later
 					<li class="jc-header-nav_li">
 						<a class="jc-header-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>contact" rel="contact">
 							Contact
 						</a>
 					</li>
+					-->
 				</ul>
 			</nav>
 			<?php /* get_template_part( 'template-parts/header/custom_header' ); */ ?>

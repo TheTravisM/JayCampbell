@@ -111,6 +111,7 @@ class Component implements Component_Interface, Templating_Component_Interface {
 				'jc-thank-you-page.php',
 				'jc-blog-page.php',
 				'jc-podcast-page.php',
+				'jc-store-page.php',
 				'404.php',
 				'500.php',
 				'offline.php' ]

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: Podcast Page
+ * Template Name: Store Page
  * The template for displaying all pages
  * The template for displaying category archives.
  *
@@ -25,7 +25,7 @@ wp_rig()->print_styles( 'wp-rig-content' );
 		<header class="jc-page-header">
 			<div class="jc-page-header_container">
 				<h1 class="jc-page-header_title jc-h1">
-					Podcast
+					Store
 				</h1>
 			</div>
 		</header>
@@ -41,7 +41,7 @@ wp_rig()->print_styles( 'wp-rig-content' );
 						$args = array(
 							'post_type' => 'post',
 							'post_status' => 'publish',
-							'category_name' => 'podcast',
+							'category_name' => 'store',
 							'posts_per_page' => 5,
 							'paged' => $paged,
 						);
@@ -84,7 +84,7 @@ wp_rig()->print_styles( 'wp-rig-content' );
 								</article>
 							<?php
 							endwhile;
-							next_posts_link( 'More Podcast Episodes', $arr_posts->max_num_pages );
+							next_posts_link( 'More Products', $arr_posts->max_num_pages );
 							previous_posts_link( 'Newer Entries' );
 						endif;
 					?>
