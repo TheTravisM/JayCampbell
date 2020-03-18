@@ -554,18 +554,8 @@ namespace WP_Rig\WP_Rig;
 			<nav class="jc-footer-nav">
 				<ul class="jc-footer-nav_ul">
 					<li class="jc-footer-nav_li">
-						<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>start-here" rel="start here">
-							Start Here
-						</a>
-					</li>
-					<li class="jc-footer-nav_li">
-						<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>faq" rel="FAQ">
-							FAQ's
-						</a>
-					</li>
-					<li class="jc-footer-nav_li">
-						<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>blog" rel="blog">
-							Blog
+						<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>start" rel="start">
+							Start
 						</a>
 					</li>
 					<li class="jc-footer-nav_li">
@@ -574,15 +564,13 @@ namespace WP_Rig\WP_Rig;
 						</a>
 					</li>
 					<li class="jc-footer-nav_li">
-						<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>store" rel="store">
-							Store
+						<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>blog" rel="blog">
+							Blog
 						</a>
 					</li>
-				</ul>
-				<ul class="jc-footer-nav_ul">
 					<li class="jc-footer-nav_li">
-						<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>support" rel="support">
-							Support
+						<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>store" rel="store">
+							Store
 						</a>
 					</li>
 					<li class="jc-footer-nav_li">
@@ -590,22 +578,36 @@ namespace WP_Rig\WP_Rig;
 							Resources
 						</a>
 					</li>
-					<li class="jc-footer-nav_li">
-						<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>partners" rel="partners">
-							Partners
-						</a>
-					</li>
-					<li class="jc-footer-nav_li">
-						<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>guests" rel="guests">
-							Podcast Guests
-						</a>
-					</li>
+				</ul>
+				<!-- Footer: Center Column -->
+				<ul class="jc-footer-nav_ul">
 					<li class="jc-footer-nav_li">
 						<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>appearances" rel="Appearances">
 							Appearances
 						</a>
 					</li>
+					<li class="jc-footer-nav_li">
+						<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>coaching" rel="Coaching">
+							Coaching
+						</a>
+					</li>
+					<li class="jc-footer-nav_li">
+						<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>partners" rel="Partners">
+							Partners
+						</a>
+					</li>
+					<li class="jc-footer-nav_li">
+						<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>advertise" rel="Advertise">
+							Advertise
+						</a>
+					</li>
+					<li class="jc-footer-nav_li">
+						<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>support" rel="support">
+							Support
+						</a>
+					</li>
 				</ul>
+				<!-- Footer 3rd Column -->
 				<ul class="jc-footer-nav_ul">
 					<li class="jc-footer-nav_li">
 						<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>terms-of-use" rel="terms of use">
