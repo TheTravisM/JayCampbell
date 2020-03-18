@@ -88,6 +88,7 @@ wp_rig()->print_styles( 'wp-rig-content' );
 											<time class="jc-card_date" datetime="<?php the_time('F jS Y')?>">
 												<?php the_time('F jS Y')?>
 											</time>
+											<a>tags</a>
 											<a class="jc-badge jc-badge--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
 										</footer>
 									</div>
