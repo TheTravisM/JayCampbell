@@ -7,13 +7,17 @@
 	margin: 60px auto 40px;
 	justify-content: center;
 }
+
 .jc-hero-banner_container {
 	display: flex;
 	flex-direction: row;
 }
+
 .jc-hero-banner_picture { }
 
-.jc-hero-banner_img { }
+.jc-hero-banner_img {
+	max-height: 461px;
+}
 
 .jc-hero-banner_content {
 	display: flex;

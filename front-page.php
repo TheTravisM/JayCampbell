@@ -26,22 +26,28 @@ if ( is_home() ) {
 			<section class="jc-hero-banner_container">
 				<picture class="jc-hero-banner_picture">
 					<!--<source srcset="/media/examples/surfer-240-200.jpg"  media="(min-width: 800px)">-->
-					<img class="jc-hero-banner_img" alt="Jay C Campbell" src="<?php echo get_theme_file_uri('/assets/images/jay-c-campbell-hero-01.png'); ?>" />
+					<!-- <img class="jc-hero-banner_img" alt="Jay C Campbell" src="< ?php echo get_theme_file_uri('/assets/images/jay-c-campbell-hero-01.png'); ?>" /> -->
+					<img class="jc-hero-banner_img" alt="Jay C Campbell" src="<?php echo get_theme_file_uri('/assets/images/jay-red-shirt.png'); ?>" />
 				</picture>
 				<div class="jc-hero-banner_content">
 					<h2 class="jc-hero-banner_cta u-margin-bottom--48">
-						Learn How to Live Fully Optimized
+						<!--
+						 How to Live Fully Optimized
 						<br>From the Body, Mind and Soul
+						-->
+						Books, Videos, and Coaching
+						<br>to Help You Learn to Fully Optimize
+						<br>Your Body, Mind, and Soul
 					</h2>
-					<a class="jc-btn jc-btn--prime" href="<?php echo esc_url( home_url( '/' ) ); ?>start-here" rel="start here">
-						Start Here
+					<a class="jc-btn jc-btn--prime" href="<?php echo esc_url( home_url( '/' ) ); ?>start" rel="start">
+						Get Started
 					</a>
 				</div>
 			</section>
 		</article>
 
 		<!-- Subject List -->
-
+		<!-- TODO: Hide for now until start pages are complete
 		<article class="jc-section">
 			<div class="jc-subject-list">
 				<a class="jc-subject jc-subject--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">
@@ -97,6 +103,7 @@ if ( is_home() ) {
 		</article>
 
 		<hr class="jc-where-to-start_hr">
+		-->
 
 		<!-- WHERE TO START-->
 		<article class="jc-where-to-start">
@@ -114,6 +121,28 @@ if ( is_home() ) {
 		<!-- Are You Willing To Remove Fear -->
 		<article class="jc-are-you-willing jc-section u-bg-gray-100">
 			<div class="jc-are-you-willing_container">
+				<h2 class="jc-h3 jc-are-you-willing_title u-align-self-center u-margin-bottom--64">
+					What Does It Mean to Be “Fully Optimized”?
+				</h2>
+				<p class="u-margin-bottom--32">You're "fully-optimized" when your body, mind, and soul are all in alignment.</p>
+				<p class="u-margin-bottom--32">Becoming fully optimized doesn't mean going on a diet, hitting the gym, meditating, or starting a yoga routine...</p>
+				<p class="u-margin-bottom--32">...it's about understanding how everything you do with your body, mind, and soul plays a role in your well-being.</p>
+				<p class="u-margin-bottom--32">If you've ever tried a new diet or new workout, you know exactly what I'm talking about:</p>
+				<p class="u-margin-bottom--32">Focusing on any of the above in isolation doesn't work.</p>
+				<p class="u-margin-bottom--32">In order to become the person you want to become...to see meaningful changes in your life...
+					<br>you need to first start seeing yourself as a web of interconnected systems.
+					<br>Aligning these systems perfectly is what becoming fully optimized is all about.
+				</p>
+				<p class="u-margin-bottom--32">That's what I'm here to help you achieve.</p>
+				<a class="jc-btn jc-btn--prime jc-are-you-willing_btn u-align-self-center">
+					I’m Ready to Become Fully Optimized
+				</a>
+			</div>
+		</article>
+
+		<!--
+		<article class="jc-are-you-willing jc-section u-bg-gray-100">
+			<div class="jc-are-you-willing_container">
 				<h2 class="jc-h3 jc-are-you-willing_title u-align-self-center u-margin-bottom--64">Are You Willing to Remove Fear From Your Life?</h2>
 				<p class="u-margin-bottom--32">Do you use studies and research to build a better body?</p>
 				<p class="u-margin-bottom--32">Are you tired of being lied to by the mainstream media?</p>
@@ -126,6 +155,7 @@ if ( is_home() ) {
 				</a>
 			</div>
 		</article>
+		-->
 
 		<!-- Has Appeared On -->
 		<article class="jc-section jc-has-appeared-on">
@@ -198,7 +228,17 @@ if ( is_home() ) {
 											<time class="jc-card_date" datetime="<?php the_time('F jS Y')?>">
 												<?php the_time('F jS Y')?>
 											</time>
-											<a class="jc-badge jc-badge--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
+
+											<?php if(has_tag()) : ?>
+												<aside class="jc-card_tag-list">
+													<?php
+													$tags = get_the_tags(get_the_ID());
+													foreach($tags as $tag){
+														echo ' <a href="'.get_tag_link($tag->term_id).'" rel="tag" class="jc-badge jc-badge--'.$tag->name.'">'.$tag->name.'</a>';
+													} ?>
+												</aside>
+											<?php endif; ?>
+
 										</footer>
 									</div>
 								</article>
@@ -256,9 +296,16 @@ if ( is_home() ) {
 											<?php the_time('F jS Y')?>
 										</time>
 
-								<!-- //TODO: IF HAS TAGS SHOW TAGS-->
+										<?php if(has_tag()) : ?>
+											<aside class="jc-card_tag-list">
+												<?php
+												$tags = get_the_tags(get_the_ID());
+												foreach($tags as $tag){
+													echo ' <a href="'.get_tag_link($tag->term_id).'" rel="tag" class="jc-badge jc-badge--'.$tag->name.'">'.$tag->name.'</a>';
+												} ?>
+											</aside>
+										<?php endif; ?>
 
-										<a class="jc-badge jc-badge--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
 									</footer>
 								</div>
 							</article>
@@ -272,9 +319,8 @@ if ( is_home() ) {
 					View all blog posts
 				</a>
 
-
 			</div>
-		</article>
+		</article> <!-- pod Cast Episodes -->
 
 
 		<!-- Badges -->

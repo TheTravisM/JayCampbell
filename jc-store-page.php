@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: Podcast Page
+ * Template Name: Store Page
  * The template for displaying all pages
  * The template for displaying category archives.
  *
@@ -25,7 +25,7 @@ wp_rig()->print_styles( 'wp-rig-content' );
 		<header class="jc-page-header">
 			<div class="jc-page-header_container">
 				<h1 class="jc-page-header_title jc-h1">
-					Podcast
+					Store
 				</h1>
 			</div>
 		</header>
@@ -41,7 +41,7 @@ wp_rig()->print_styles( 'wp-rig-content' );
 						$args = array(
 							'post_type' => 'post',
 							'post_status' => 'publish',
-							'category_name' => 'podcast',
+							'category_name' => 'store',
 							'posts_per_page' => 5,
 							'paged' => $paged,
 						);
@@ -78,23 +78,13 @@ wp_rig()->print_styles( 'wp-rig-content' );
 											<time class="jc-card_date" datetime="<?php the_time('F jS Y')?>">
 												<?php the_time('F jS Y')?>
 											</time>
-
-											<?php if(has_tag()) : ?>
-												<aside class="jc-card_tag-list">
-													<?php
-													$tags = get_the_tags(get_the_ID());
-													foreach($tags as $tag){
-														echo ' <a href="'.get_tag_link($tag->term_id).'" rel="tag" class="jc-badge jc-badge--'.$tag->name.'">'.$tag->name.'</a>';
-													} ?>
-												</aside>
-											<?php endif; ?>
-
+											<a class="jc-badge jc-badge--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
 										</footer>
 									</div>
 								</article>
 							<?php
 							endwhile;
-							next_posts_link( 'More Podcast Episodes', $arr_posts->max_num_pages );
+							next_posts_link( 'More Products', $arr_posts->max_num_pages );
 							previous_posts_link( 'Newer Entries' );
 						endif;
 					?>
