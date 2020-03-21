@@ -34,6 +34,7 @@ wp_rig()->print_styles( 'wp-rig-content' );
 		<section class="jc-section jc-blog-list">
 			<div class="jc-section_container u-width-960">
 
+				<!-- TODO: Add This Back Later
 				<div class="jc-tag-banner_list u-margin-bottom--48">
 					<a class="jc-btn jc-tag-banner_btn" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
 					<a class="jc-btn jc-tag-banner_btn" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/nutritional">Nutritional</a>
@@ -42,7 +43,7 @@ wp_rig()->print_styles( 'wp-rig-content' );
 					<a class="jc-btn jc-tag-banner_btn" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/heart">Heart</a>
 					<a class="jc-btn jc-tag-banner_btn" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/mental">Mental</a>
 				</div>
-
+				-->
 
 				<div class="jc-card-list">
 

@@ -54,6 +54,21 @@ namespace WP_Rig\WP_Rig;
 <!--		</li>-->
 <!--	</ul>-->
 
+	<script>
+		window.addEventListener("load", function(){
+			var navBtn = document.getElementById("jc-nav-toggle");
+			navBtn.addEventListener("click", function(){
+				navBtn.classList.toggle('open');
+				var navBtnAtt = navBtn.attributes;
+				if (navBtnAtt['aria-expanded'].value == "true") {
+					navBtn.setAttribute("aria-expanded", "false");
+				} else {
+					navBtn.setAttribute("aria-expanded", "true");
+				}
+			});
+		});
+	</script>
+
 
 	<header id="masthead" class="jc-header">
 		<section class="jc-header_container">
@@ -92,8 +107,17 @@ namespace WP_Rig\WP_Rig;
 					CAMPBELL
 				</a>
 			</h1>
+
+			<button id="jc-nav-toggle" class="jc-header-nav_button" aria-controls="site-navigation" aria-expanded="false" aria-label="Button Toggle Primary Navigation">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
 			<!-- Navigation -->
-			<nav class="jc-header-nav">
+			<nav id="jc-header-nav" class="jc-header-nav">
 				<ul class="jc-header-nav_ul">
 					<li class="jc-header-nav_li">
 						<a class="jc-header-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
