@@ -50,16 +50,13 @@ namespace WP_Rig\WP_Rig;
 						height: 55px;
 						font-size: 20px;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] * {
 						box-sizing: border-box;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] {
 						-webkit-font-smoothing: antialiased;
 						-moz-osx-font-smoothing: grayscale;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] legend {
 						border: none;
 						font-size: inherit;
@@ -68,18 +65,15 @@ namespace WP_Rig\WP_Rig;
 						position: relative;
 						display: table;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] fieldset {
 						border: 0;
 						padding: 0.01em 0 0 0;
 						margin: 0;
 						min-width: 0;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] body:not(:-moz-handler-blocked) fieldset {
 						display: table-cell;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] h1,
 					.formkit-form[data-uid="72292ff8f4"] h2,
 					.formkit-form[data-uid="72292ff8f4"] h3,
@@ -90,19 +84,16 @@ namespace WP_Rig\WP_Rig;
 						font-size: inherit;
 						font-weight: inherit;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] p {
 						color: inherit;
 						font-size: inherit;
 						font-weight: inherit;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] ol:not([template-default]),
 					.formkit-form[data-uid="72292ff8f4"] ul:not([template-default]),
 					.formkit-form[data-uid="72292ff8f4"] blockquote:not([template-default]) {
 						text-align: left;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] p:not([template-default]),
 					.formkit-form[data-uid="72292ff8f4"] hr:not([template-default]),
 					.formkit-form[data-uid="72292ff8f4"] blockquote:not([template-default]),
@@ -111,21 +102,17 @@ namespace WP_Rig\WP_Rig;
 						color: inherit;
 						font-style: initial;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"][data-format="modal"] {
 						display: none;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"][data-format="slide in"] {
 						display: none;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-input,
 					.formkit-form[data-uid="72292ff8f4"] .formkit-select,
 					.formkit-form[data-uid="72292ff8f4"] .formkit-checkboxes {
 						width: 100%;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-button,
 					.formkit-form[data-uid="72292ff8f4"] .formkit-submit {
 						border: 0;
@@ -140,21 +127,18 @@ namespace WP_Rig\WP_Rig;
 						position: relative;
 						vertical-align: middle;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-button:hover,
 					.formkit-form[data-uid="72292ff8f4"] .formkit-submit:hover,
 					.formkit-form[data-uid="72292ff8f4"] .formkit-button:focus,
 					.formkit-form[data-uid="72292ff8f4"] .formkit-submit:focus {
 						outline: none;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-button:hover>span,
 					.formkit-form[data-uid="72292ff8f4"] .formkit-submit:hover>span,
 					.formkit-form[data-uid="72292ff8f4"] .formkit-button:focus>span,
 					.formkit-form[data-uid="72292ff8f4"] .formkit-submit:focus>span {
 						background-color: rgba(0, 0, 0, 0.1);
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-button>span,
 					.formkit-form[data-uid="72292ff8f4"] .formkit-submit>span {
 						display: block;
@@ -162,7 +146,6 @@ namespace WP_Rig\WP_Rig;
 						transition: all 300ms ease-in-out;
 						padding: 12px 24px;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-input {
 						-webkit-flex: 1 0 auto;
 						-ms-flex: 1 0 auto;
@@ -170,35 +153,28 @@ namespace WP_Rig\WP_Rig;
 						-webkit-transition: border-color ease-out 300ms;
 						transition: border-color ease-out 300ms;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-input:focus { }
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-input::-webkit-input-placeholder {
 						color: inherit;
 						opacity: 0.8;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-input::-moz-placeholder {
 						color: inherit;
 						opacity: 0.8;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-input:-ms-input-placeholder {
 						color: inherit;
 						opacity: 0.8;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-input::placeholder {
 						color: inherit;
 						opacity: 0.8;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] [data-group="dropdown"] {
 						position: relative;
 						display: inline-block;
 						width: 100%;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] [data-group="dropdown"]::before {
 						content: "";
 						top: calc(50% - 2.5px);
@@ -212,7 +188,6 @@ namespace WP_Rig\WP_Rig;
 						width: 0;
 						z-index: 999;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] [data-group="dropdown"] select {
 						height: auto;
 						width: 100%;
@@ -230,59 +205,47 @@ namespace WP_Rig\WP_Rig;
 						border: 1px solid #e3e3e3;
 						background: #ffffff;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] [data-group="dropdown"] select:focus {
 						outline: none;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] [data-group="checkboxes"] {
 						text-align: left;
 						margin: 0;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] [data-group="checkboxes"] [data-group="checkbox"] {
 						margin-bottom: 10px;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] [data-group="checkboxes"] [data-group="checkbox"] * {
 						cursor: pointer;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] [data-group="checkboxes"] [data-group="checkbox"]:last-of-type {
 						margin-bottom: 0;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] [data-group="checkboxes"] [data-group="checkbox"] input[type="checkbox"] {
 						display: none;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] [data-group="checkboxes"] [data-group="checkbox"] input[type="checkbox"]+label::after {
 						content: none;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] [data-group="checkboxes"] [data-group="checkbox"] input[type="checkbox"]:checked+label::after {
 						border-color: #ffffff;
 						content: "";
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] [data-group="checkboxes"] [data-group="checkbox"] input[type="checkbox"]:checked+label::before {
 						background: #10bf7a;
 						border-color: #10bf7a;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] [data-group="checkboxes"] [data-group="checkbox"] label {
 						position: relative;
 						display: inline-block;
 						padding-left: 28px;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] [data-group="checkboxes"] [data-group="checkbox"] label::before,
 					.formkit-form[data-uid="72292ff8f4"] [data-group="checkboxes"] [data-group="checkbox"] label::after {
 						position: absolute;
 						content: "";
 						display: inline-block;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] [data-group="checkboxes"] [data-group="checkbox"] label::before {
 						height: 16px;
 						width: 16px;
@@ -291,7 +254,6 @@ namespace WP_Rig\WP_Rig;
 						left: 0px;
 						top: 3px;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] [data-group="checkboxes"] [data-group="checkbox"] label::after {
 						height: 4px;
 						width: 8px;
@@ -303,7 +265,6 @@ namespace WP_Rig\WP_Rig;
 						left: 4px;
 						top: 8px;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-alert {
 						background: #f9fafb;
 						border: 1px solid #e3e3e3;
@@ -317,23 +278,17 @@ namespace WP_Rig\WP_Rig;
 						text-align: center;
 						width: 100%;
 					}
-
-					.formkit-form[data-uid="72292ff8f4"] .formkit-alert:empty {
-						display: none;
-					}
-
+					.formkit-form[data-uid="72292ff8f4"] .formkit-alert:empty { display: none; }
 					.formkit-form[data-uid="72292ff8f4"] .formkit-alert-success {
 						background: #d3fbeb;
 						border-color: #10bf7a;
 						color: #0c905c;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-alert-error {
 						background: #fde8e2;
 						border-color: #f2643b;
 						color: #ea4110;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-spinner {
 						display: -webkit-box;
 						display: -webkit-flex;
@@ -352,7 +307,6 @@ namespace WP_Rig\WP_Rig;
 						-webkit-transition: all 300ms ease-in-out;
 						transition: all 300ms ease-in-out;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-spinner>div {
 						margin: auto;
 						width: 12px;
@@ -364,33 +318,22 @@ namespace WP_Rig\WP_Rig;
 						-webkit-animation: formkit-bouncedelay-formkit-form-data-uid-72292ff8f4- 1.4s infinite ease-in-out both;
 						animation: formkit-bouncedelay-formkit-form-data-uid-72292ff8f4- 1.4s infinite ease-in-out both;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-spinner>div:nth-child(1) {
 						-webkit-animation-delay: -0.32s;
 						animation-delay: -0.32s;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-spinner>div:nth-child(2) {
 						-webkit-animation-delay: -0.16s;
 						animation-delay: -0.16s;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-submit[data-active] .formkit-spinner {
 						opacity: 1;
 						height: 100%;
 						width: 50px;
 					}
-
-					.formkit-form[data-uid="72292ff8f4"] .formkit-submit[data-active] .formkit-spinner~span {
-						opacity: 0;
-					}
-
-					.formkit-form[data-uid="72292ff8f4"] .formkit-powered-by[data-active="false"] {
-						opacity: 0.35;
-					}
-
+					.formkit-form[data-uid="72292ff8f4"] .formkit-submit[data-active] .formkit-spinner~span { opacity: 0; }
+					.formkit-form[data-uid="72292ff8f4"] .formkit-powered-by[data-active="false"] { opacity: 0.35; }
 					@-webkit-keyframes formkit-bouncedelay-formkit-form-data-uid-72292ff8f4- {
-
 						0%,
 						80%,
 						100% {
@@ -398,16 +341,13 @@ namespace WP_Rig\WP_Rig;
 							-ms-transform: scale(0);
 							transform: scale(0);
 						}
-
 						40% {
 							-webkit-transform: scale(1);
 							-ms-transform: scale(1);
 							transform: scale(1);
 						}
 					}
-
 					@keyframes formkit-bouncedelay-formkit-form-data-uid-72292ff8f4- {
-
 						0%,
 						80%,
 						100% {
@@ -415,26 +355,21 @@ namespace WP_Rig\WP_Rig;
 							-ms-transform: scale(0);
 							transform: scale(0);
 						}
-
 						40% {
 							-webkit-transform: scale(1);
 							-ms-transform: scale(1);
 							transform: scale(1);
 						}
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] blockquote {
 						padding: 10px 20px;
 						margin: 0 0 20px;
 						border-left: 5px solid #e1e1e1;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] {  }
-
 					.formkit-form[data-uid="72292ff8f4"] [data-style="clean"] {
 						width: 100%;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-fields {
 						display: -webkit-box;
 						display: -webkit-flex;
@@ -445,7 +380,6 @@ namespace WP_Rig\WP_Rig;
 						flex-wrap: wrap;
 						margin: 0 auto;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-field,
 					.formkit-form[data-uid="72292ff8f4"] .formkit-submit {
 						margin: 0 0 15px 0;
@@ -453,7 +387,6 @@ namespace WP_Rig\WP_Rig;
 						-ms-flex: 1 0 100%;
 						flex: 1 0 100%;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-powered-by {
 						color: #7d7d7d;
 						display: block;
@@ -461,53 +394,43 @@ namespace WP_Rig\WP_Rig;
 						margin: 0;
 						text-align: center;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"][min-width~="700"] [data-style="clean"],
 					.formkit-form[data-uid="72292ff8f4"][min-width~="800"] [data-style="clean"] {
 						padding: 10px;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"][min-width~="700"] .formkit-fields[data-stacked="false"],
 					.formkit-form[data-uid="72292ff8f4"][min-width~="800"] .formkit-fields[data-stacked="false"] {
 						margin-left: -5px;
 						margin-right: -5px;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"][min-width~="700"] .formkit-fields[data-stacked="false"] .formkit-field,
 					.formkit-form[data-uid="72292ff8f4"][min-width~="800"] .formkit-fields[data-stacked="false"] .formkit-field,
 					.formkit-form[data-uid="72292ff8f4"][min-width~="700"] .formkit-fields[data-stacked="false"] .formkit-submit,
 					.formkit-form[data-uid="72292ff8f4"][min-width~="800"] .formkit-fields[data-stacked="false"] .formkit-submit {
 						margin: 0 5px 15px 5px;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"][min-width~="700"] .formkit-fields[data-stacked="false"] .formkit-field,
 					.formkit-form[data-uid="72292ff8f4"][min-width~="800"] .formkit-fields[data-stacked="false"] .formkit-field {
 						-webkit-flex: 100 1 auto;
 						-ms-flex: 100 1 auto;
 						flex: 100 1 auto;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"][min-width~="700"] .formkit-fields[data-stacked="false"] .formkit-submit,
 					.formkit-form[data-uid="72292ff8f4"][min-width~="800"] .formkit-fields[data-stacked="false"] .formkit-submit {
 						-webkit-flex: 1 1 auto;
 						-ms-flex: 1 1 auto;
 						flex: 1 1 auto;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] { }
-
 					.formkit-form[data-uid="72292ff8f4"] * { }
-
 					.formkit-form[data-uid="72292ff8f4"]>div {
 						padding: 0 !important;
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-fields {
 						-webkit-flex: auto;
 						-ms-flex: auto;
 						flex: auto;
 					}
-
 					@media only screen and (max-width:724px) {
 						.formkit-form[data-uid="72292ff8f4"] .formkit-fields {
 							-webkit-flex-direction: column;
@@ -515,11 +438,8 @@ namespace WP_Rig\WP_Rig;
 							flex-direction: column;
 						}
 					}
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-input { }
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-submit { }
-
 					.formkit-form[data-uid="72292ff8f4"] .formkit-submit>span {
 						padding: 18px 32px 14px 24px;
 						width: 100%;
@@ -527,7 +447,6 @@ namespace WP_Rig\WP_Rig;
 					}
 				</style>
 			</form>
-
 		</div>
 	</article>
 	<!-- END EMAIL -->
@@ -591,11 +510,13 @@ namespace WP_Rig\WP_Rig;
 							Coaching
 						</a>
 					</li>
+					<!-- Remove Partners
 					<li class="jc-footer-nav_li">
-						<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>partners" rel="Partners">
+						<a class="jc-footer-nav_link" href="< ?php echo esc_url( home_url( '/' ) ); ?>partners" rel="Partners">
 							Partners
 						</a>
 					</li>
+					-->
 					<li class="jc-footer-nav_li">
 						<a class="jc-footer-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>advertise" rel="Advertise">
 							Advertise

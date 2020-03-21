@@ -96,6 +96,11 @@ namespace WP_Rig\WP_Rig;
 			<nav class="jc-header-nav">
 				<ul class="jc-header-nav_ul">
 					<li class="jc-header-nav_li">
+						<a class="jc-header-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+							Home
+						</a>
+					</li>
+					<li class="jc-header-nav_li">
 						<a class="jc-header-nav_link" href="<?php echo esc_url( home_url( '/' ) ); ?>podcast" rel="podcast">
 							Podcast
 						</a>

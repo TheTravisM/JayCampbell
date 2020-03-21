@@ -15,8 +15,9 @@ namespace WP_Rig\WP_Rig;
 			<?php the_title() ?>
 		</h1>
 
+		<!-- Remove Meta Data From Posts
 		<p class="entry-meta jc-page-header_meta-data">
-			<?php the_time('F jS Y')?>
+			< ?php the_time('F jS Y')?>
 		</p><!-- .entry-meta -->
 	</div>
 </header><!-- .entry-header -->
