@@ -87,8 +87,9 @@
 @import "./05-components/_jc-subject.css";
 @import "./05-components/_jc-tag-banner.css";
 
-/* -- pages -- */
+/* -- Pages -- */
 @import "./07-pages/_jc-front-page.css";
+@import "./07-pages/_jc-page.css";
 @import "./07-pages/_jc-thank-you-page.css";
 @import "./07-pages/_jc-start-here-page.css";
 

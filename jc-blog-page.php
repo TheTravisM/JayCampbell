@@ -24,7 +24,7 @@ wp_rig()->print_styles( 'wp-rig-content' );
 
 		<header class="jc-page-header">
 			<div class="jc-page-header_container">
-				<h1 class="jc-page-header_title jc-h1">
+				<h1 class="jc-page-header_title jc-h2">
 					Blog
 				</h1>
 			</div>
@@ -36,12 +36,12 @@ wp_rig()->print_styles( 'wp-rig-content' );
 
 				<!-- TODO: Add This Back Later
 				<div class="jc-tag-banner_list u-margin-bottom--48">
-					<a class="jc-btn jc-tag-banner_btn" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
-					<a class="jc-btn jc-tag-banner_btn" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/nutritional">Nutritional</a>
-					<a class="jc-btn jc-tag-banner_btn" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/sexual">Sexual</a>
-					<a class="jc-btn jc-tag-banner_btn" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/energy">Energy</a>
-					<a class="jc-btn jc-tag-banner_btn" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/heart">Heart</a>
-					<a class="jc-btn jc-tag-banner_btn" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/mental">Mental</a>
+					<a class="jc-btn jc-tag-banner_btn" href="< ?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
+					<a class="jc-btn jc-tag-banner_btn" href="< ?php echo esc_url( home_url( '/' ) ); ?>tag/nutritional">Nutritional</a>
+					<a class="jc-btn jc-tag-banner_btn" href="< ?php echo esc_url( home_url( '/' ) ); ?>tag/sexual">Sexual</a>
+					<a class="jc-btn jc-tag-banner_btn" href="< ?php echo esc_url( home_url( '/' ) ); ?>tag/energy">Energy</a>
+					<a class="jc-btn jc-tag-banner_btn" href="< ?php echo esc_url( home_url( '/' ) ); ?>tag/heart">Heart</a>
+					<a class="jc-btn jc-tag-banner_btn" href="< ?php echo esc_url( home_url( '/' ) ); ?>tag/mental">Mental</a>
 				</div>
 				-->
 
@@ -77,7 +77,7 @@ wp_rig()->print_styles( 'wp-rig-content' );
 										</picture>
 									</a>
 									<div class="jc-card_body">
-										<h3 class="jc-h4 jc-card_title">
+										<h3 class="jc-card_title">
 											<a href="<?php the_permalink(); ?>" class="jc-card_title-link">
 												<?php the_title(); ?>
 											</a>
@@ -107,7 +107,7 @@ wp_rig()->print_styles( 'wp-rig-content' );
 								</article>
 							<?php
 							endwhile;
-							next_posts_link( 'More Podcats', $arr_posts->max_num_pages );
+							next_posts_link( 'More Blog Posts', $arr_posts->max_num_pages );
 							previous_posts_link( 'Newer Entries' );
 						endif;
 					?>

@@ -24,7 +24,7 @@ wp_rig()->print_styles( 'wp-rig-content' );
 
 		<header class="jc-page-header">
 			<div class="jc-page-header_container">
-				<h1 class="jc-page-header_title jc-h1">
+				<h1 class="jc-page-header_title jc-h2">
 					Podcast
 				</h1>
 			</div>
@@ -66,7 +66,7 @@ wp_rig()->print_styles( 'wp-rig-content' );
 										</picture>
 									</a>
 									<div class="jc-card_body">
-										<h3 class="jc-h4 jc-card_title">
+										<h3 class="jc-card_title">
 											<a href="<?php the_permalink(); ?>" class="jc-card_title-link">
 												<?php the_title(); ?>
 											</a>

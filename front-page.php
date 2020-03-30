@@ -30,16 +30,17 @@ if ( is_home() ) {
 					<img class="jc-hero-banner_img" alt="Jay C Campbell" src="<?php echo get_theme_file_uri('/assets/images/jay-red-shirt.png'); ?>" />
 				</picture>
 				<div class="jc-hero-banner_content">
-					<h2 class="jc-hero-banner_cta u-margin-bottom--48">
+					<h2 class="jc-hero-banner_cta">
 						<!--
 						 How to Live Fully Optimized
 						<br>From the Body, Mind and Soul
 						-->
 						Books, Videos, and Coaching
-						<br>to Help You Learn to Fully Optimize
+						<br>to Help You Fully Optimize
 						<br>Your Body, Mind, and Soul
+
 					</h2>
-					<a class="jc-btn jc-btn--prime" href="<?php echo esc_url( home_url( '/' ) ); ?>start" rel="start">
+					<a class="jc-btn jc-btn--prime jc-hero-banner_btn" href="<?php echo esc_url( home_url( '/' ) ); ?>start" rel="start">
 						Get Started
 					</a>
 				</div>
@@ -124,8 +125,8 @@ if ( is_home() ) {
 		<script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
 		<article class="jc-email-sign-up_section">
 			<div class="jc-email-sign-up_container jc-page_container">
-				<h2 class="jc-h3 jc-email-sign-up_title u-margin-bottom--32">
-					Sign up for Jay’s email list and get a free PDF!
+				<h2 class="jc-h4 jc-email-sign-up_title u-margin-bottom--32">
+					Join My Email List and Receive the Highest Value Intel on Full-Spectrum Optimization Daily to Your Inbox
 				</h2>
 
 				<form action="https://app.convertkit.com/forms/1251296/subscriptions" class="seva-form formkit-form u-width-960" method="post"
@@ -655,7 +656,7 @@ if ( is_home() ) {
 										</picture>
 									</a>
 									<div class="jc-card_body">
-										<h3 class="jc-h3 jc-card_title">
+										<h3 class="jc-card_title">
 											<a href="<?php the_permalink(); ?>" class="jc-card_title-link">
 												<?php the_title(); ?>
 											</a>
@@ -724,7 +725,7 @@ if ( is_home() ) {
 									</picture>
 								</a>
 								<div class="jc-card_body">
-									<h3 class="jc-h4 jc-card_title">
+									<h3 class="jc-card_title">
 										<a href="<?php the_permalink(); ?>" class="jc-card_title-link">
 											<?php the_title(); ?>
 										</a>

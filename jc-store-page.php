@@ -24,7 +24,7 @@ wp_rig()->print_styles( 'wp-rig-content' );
 
 		<header class="jc-page-header">
 			<div class="jc-page-header_container">
-				<h1 class="jc-page-header_title jc-h1">
+				<h1 class="jc-page-header_title jc-h2">
 					Store
 				</h1>
 			</div>
@@ -66,7 +66,7 @@ wp_rig()->print_styles( 'wp-rig-content' );
 										</picture>
 									</a>
 									<div class="jc-card_body">
-										<h3 class="jc-h4 jc-card_title">
+										<h3 class="jc-card_title">
 											<a href="<?php the_permalink(); ?>" class="jc-card_title-link">
 												<?php the_title(); ?>
 											</a>
@@ -78,7 +78,17 @@ wp_rig()->print_styles( 'wp-rig-content' );
 											<time class="jc-card_date" datetime="<?php the_time('F jS Y')?>">
 												<?php the_time('F jS Y')?>
 											</time>
-											<a class="jc-badge jc-badge--physical" href="<?php echo esc_url( home_url( '/' ) ); ?>tag/physical">Physical</a>
+											<!-- TODO: Add Back Later -  KICK ASS TAG CODE :(
+											< ?php if(has_tag()) : ?>
+												<aside class="jc-card_tag-list">
+													< ?php
+													$tags = get_the_tags(get_the_ID());
+													foreach($tags as $tag){
+														echo ' <a href="'.get_tag_link($tag->term_id).'" rel="tag" class="jc-badge jc-badge--'.$tag->name.'">'.$tag->name.'</a>';
+													} ?>
+												</aside>
+											< ?php endif; ?>
+											<!-- END KICK ASS TAG CODE -->
 										</footer>
 									</div>
 								</article>

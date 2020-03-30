@@ -30,13 +30,18 @@
 }
 
 .jc-hero-banner_cta {
+	margin: 24px 0;
 	font-family: Overpass;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 21px;
 	line-height: 140%;
-	text-align: center;/* or 50px */
+	text-align: center;
 	color: #262626;/* Grey 900 */
+}
+
+.jc-hero-banner_btn {
+	margin-bottom: 24px !important;
 }
 
 /* 768 and up */

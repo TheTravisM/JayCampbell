@@ -38,7 +38,7 @@ get_header(); ?>
 						</picture>
 					</a>
 					<div class="jc-card_body">
-						<h3 class="jc-h4 jc-card_title">
+						<h3 class="jc-card_title">
 							<a href="<?php the_permalink(); ?>" class="jc-card_title-link">
 								<?php the_title(); ?>
 							</a>

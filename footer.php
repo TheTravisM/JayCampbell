@@ -18,8 +18,8 @@ namespace WP_Rig\WP_Rig;
 	<script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
 	<article class="jc-email-sign-up_section">
 		<div class="jc-email-sign-up_container jc-page_container">
-			<h2 class="jc-h3 jc-email-sign-up_title u-margin-bottom--32">
-				Sign up for Jay’s email list and get a free PDF!
+			<h2 class="jc-h4 jc-email-sign-up_title u-margin-bottom--32">
+				Join My Email List and Receive the Highest Value Intel on Full-Spectrum Optimization Daily to Your Inbox
 			</h2>
 
 			<form action="https://app.convertkit.com/forms/1251296/subscriptions" class="seva-form formkit-form u-width-960" method="post"
