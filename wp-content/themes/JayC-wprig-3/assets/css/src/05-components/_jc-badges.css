@@ -1,0 +1,15 @@
+.jc-badge_list {width: 100%;position: relative;display: grid;grid-template-columns: repeat(auto-fit,minmax(0,max-content));grid-gap: 16px;}
+.jc-badge, .jc-badge:visited {display: inline-flex;justify-content: center;align-items: center;min-height: 29px;border-radius: 18px;font-size: 16px;font-family: Overpass;text-align: center;padding: 0 12px;background: var(--jc-color-gray-100,#f1f1f1);color: var(--jc-color-gray-600,#686868);text-decoration: none;}
+.jc-badge:hover, .jc-badge:focus, .jc-badge:active {background: var(--jc-color-gray-200,#e4e4e4);color: var(--jc-color-gray-700,#4e4e4e);}
+.jc-badge--energy, .jc-badge--energy:visited {background: var(--jc-color-violet-100,#ffecfc);color: var(--jc-color-violet-600,#9e2e8b);}
+.jc-badge--energy:hover, .jc-badge--energy:focus, .jc-badge--energy:active {background: var(--jc-color-violet-200,#d9dafb);color: var(--jc-color-violet-700,#2d3294);}
+.jc-badge--heart, .jc-badge--heart:visited {background: var(--jc-color-blue-100,#eafaff);color: var(--jc-color-blue-700,#006a8a);}
+.jc-badge--heart:hover, .jc-badge--heart:focus, .jc-badge--heart:active {background: var(--jc-color-blue-200,#cff3fe);color: var(--jc-color-blue-800,#005068);}
+.jc-badge--mental:visited {background: var(--jc-color-green-100,#f5ffe6);color: var(--jc-color-green-600,#5a870f);}
+.jc-badge--mental:hover, .jc-badge--mental:focus, .jc-badge--mental:active {background: var(--jc-color-green-200,#e5ffb9);color: var(--jc-color-green-800,#416800);}
+.jc-badge--nutritional, .jc-badge--nutritional:visited {background: var(--jc-color-orange-100,#fff5ec);color: var(--jc-color-orange-700,#c45e00);}
+.jc-badge--nutritional:hover, .jc-badge--nutritional:focus, .jc-badge--nutritional:active {background: var(--jc-color-orange-200,#ffe8d2);color: var(--jc-color-orange-800,#9b4a00);}
+.jc-badge--physical, .jc-badge--physical:visited {background: var(--jc-color-red-100,#ffedee);color: var(--jc-color-red-700,#c30009);}
+.jc-badge--physical:hover, .jc-badge--physical:focus, .jc-badge--physical:active {background: var(--jc-color-red-200,#ffcacc);color: var(--jc-color-red-800,#810006);}
+.jc-badge--sexual, .jc-badge--sexual:visited {background: var(--jc-color-yellow-100,#fffaea);color: var(--jc-color-yellow-700,#a88300);}
+.jc-badge--sexual:hover, .jc-badge--sexual:focus, .jc-badge--sexual:active {background: var(--jc-color-yellow-200,#fff4cc);color: var(--jc-color-yellow-800,#7d6200);}
