@@ -1,0 +1,13 @@
+.jc-subject-list {display: flex;flex-wrap: wrap;flex-direction: row;justify-content: center;align-items: center;margin: 0 auto;width: 100%;}
+.jc-subject {display: flex;flex-direction: column;margin: 0 48px;text-decoration: none;}
+.jc-subject:hover .jc-subject_title, .jc-subject:focus .jc-subject_title, .jc-subject:active .jc-subject_title {color: #f5424b;}
+.jc-subject:hover .jc-subject_svg-icon path, .jc-subject:focus .jc-subject_svg-icon path, .jc-subject:active .jc-subject_svg-icon path {stroke: #f5424b;}
+.jc-subject_svg-icon {height: 48px;width: auto;fill: none;}
+.jc-subject_svg-icon path {stroke: #4e4e4e;stroke-width: 1.5;stroke-linecap: round;stroke-linejoin: round;}
+.jc-subject_title {font-size: 18px;font-weight: 400;color: #383838;}
+.jc-subject--energy:hover .jc-subject_svg-icon path, .jc-subject--energy:hover .jc-subject_title {color: var(--jc-color-violet-600,#9e2e8b);stroke: var(--jc-color-violet-600,#9e2e8b);}
+.jc-subject--heart:hover .jc-subject_svg-icon path, .jc-subject--heart:hover .jc-subject_title {color: var(--jc-color-blue-700,#006a8a);stroke: var(--jc-color-blue-700,#006a8a);}
+.jc-subject--mental:hover .jc-subject_svg-icon path, .jc-subject--mental:hover .jc-subject_title {color: var(--jc-color-green-700,#5a870f);stroke: var(--jc-color-green-700,#5a870f);}
+.jc-subject--nutritional:hover .jc-subject_svg-icon path, .jc-subject--nutritional:hover .jc-subject_title {color: var(--jc-color-orange-700,#c45e00);stroke: var(--jc-color-orange-700,#c45e00);}
+.jc-subject--physical:hover .jc-subject_svg-icon path, .jc-subject--physical:hover .jc-subject_title {color: var(--jc-color-red-700,#c30009);stroke: var(--jc-color-red-700,#c30009);}
+.jc-subject--sexual:hover .jc-subject_svg-icon path, .jc-subject--sexual:hover .jc-subject_title {color: var(--jc-color-yellow-700,#a88300);stroke: var(--jc-color-yellow-700,#a88300);}
